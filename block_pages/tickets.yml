@@ -1,0 +1,39 @@
+url: /tickets/
+menu:
+  - text: Home
+    url: /
+    highlight: true
+blocks:
+  - type: header
+    title: RSVP to the events
+    description: You can RSVP to the events in the SAP Community website
+  - type: tickets
+    id: tickets
+    features:
+      - id: event_pass
+        text: Event Pass
+      - id: streaming
+        text: Streaming access
+    tickets:
+      - name: SAP CodeJam
+        pricing: Free
+        img: /files/tickets/ticket.png
+        buy:
+          text: RSVP now
+          url: 'https://community.sap.com/t5/sap-codejam/eb-p/codejam-events'
+          disabled: false
+        features:
+          - event_pass
+      - name: SAP Inside Track
+        pricing: Free
+        img: /files/tickets/ticket.png
+        buy:
+          text: RSVP now
+          url: 'https://community.sap.com/t5/madrid-events/eb-p/madridoccasion-board'
+          disabled: false
+        features:
+          - event_pass
+          - streaming
+title: RSVP
+metas:
+  image: ''

@@ -1,0 +1,22 @@
+- name: DJ Adams
+        id: dj-adams
+        company: SAP
+        role: Developer Advocate
+        bio: >-
+          DJ focuses on integration and extension topics on the SAP Business
+          Technology Platform. He runs a regular live-stream on the SAP
+          Developers “Hands-on SAP Dev” show and enjoys sharing his curiosity on
+          many SAP development topics. He read Classics at university, has
+          worked on SAP systems since 1987, co-created the SAP Community, and is
+          a lifelong learner.
+        image: /files/people/dj-adams.png
+        links:
+          - icon: users-four
+            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/53'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/djadams/'
+          - icon: github-logo
+            url: 'https://github.com/qmacro'
+          - icon: house
+            url: 'https://qmacro.org'
+      

@@ -1,0 +1,16 @@
+title_suffix: SIT Madrid
+metas:
+  title: =title
+  site: SIT Madrid 2025
+  lang: en
+  twitter: null
+  color: '#00ab7d'
+  generator: true
+  image: /files/img-home.png
+state: pre-event
+cta:
+  text: "RSVP to the event \U0001F3AB"
+  url: 'https://community.sap.com/t5/madrid-events/eb-p/madridoccasion-board'
+footer:
+  logo: /files/logos/logo.png
+  copyright: "© 2024<br>\r\nCreated with [Lume](https://lume.land) & TOP Theme<br>\r\n[humans.txt](/humans.txt)\r\n"
