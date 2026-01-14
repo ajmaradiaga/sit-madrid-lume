@@ -1,17 +1,17 @@
 menu:
-  - text: Location
+  - text: ¿Cómo llegar?
     url: '#location'
     highlight: false
-  - text: Calendar
+  - text: Programa
     url: '#calendar'
     highlight: true
-  - text: Speakers
+  - text: Ponentes
     url: '#speakers-wanted'
     highlight: false
-  - text: FAQ
+  - text: Preguntas frecuentes
     url: '#faq'
     highlight: false
-  - text: Contact
+  - text: Contacto
     url: '#contact'
     highlight: false
 blocks:
@@ -19,7 +19,7 @@ blocks:
     id: main-logo
     theme: is-primary width-full box-fill
     src: ' /files/sit-madrid-red-black-background.png'
-    text: "\U0001F5D3️ 17th of April 2026\n\n\U0001F9ED [EPAM Neoris AI Hub](https://maps.app.goo.gl/Gr94MTeWYiRs27A8A) - C. del Musgo, 2, Edificio Europa II - Bajo G, Moncloa - Aravaca, 28023 Madrid\n\n## [RSVP Now \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-abr-17-2026)"
+    text: "\U0001F5D3️ 17 de abril 2026\n\n\U0001F9ED [EPAM Neoris AI Hub](https://maps.app.goo.gl/Gr94MTeWYiRs27A8A) - C. del Musgo, 2, Edificio Europa II - Bajo G, Moncloa - Aravaca, 28023 Madrid\n\n## [RSVP Now \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-abr-17-2026)"
   - type: imagetext
     id: what-is-sit
     theme: is-primary width-full box-fill
@@ -32,7 +32,7 @@ blocks:
       presenter, take part in discussions, exchange information, realize
       networking or enjoy the social get-togethers in the evening.*
   - type: location
-    title: Location
+    title: ¿Cómo llegar?
     id: location
     theme: is-light width-box box-fill
     embed: >-
@@ -42,51 +42,48 @@ blocks:
       loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     caption: Ubicacion de EPAM Neoris AI Hub
     directions:
-      - title: Address
+      - title: EPAM Neoris AI Hub
         description: >-
           C. del Musgo, 2, Edificio Europa II - Bajo G, Moncloa - Aravaca, 28023
           Madrid
-        icon: train-simple
+        icon: map-pin-area
       - title: Cercanias
         description: >-
           [El Barrial-Centro Comercial-Pozuelo (C7,
           C10)](https://maps.app.goo.gl/gkGUuuwfR58bmJqr5)
-        icon: train-simple
-      - title: Train
-        description: 'Nuevos Ministerios (C1, C2, C3, C4, C7, C10)'
         icon: train
   - type: separator
     width: is-default
   - type: calendar
-    title: Eventos
+    title: Programa
     id: calendar
     theme: is-light width-box box-border
     days:
-      - title: 'Pre-SIT (16 April, 2026)'
+      - title: Pre-SIT (16 de abril 2026)
         events:
           - time: '09:30 - 11:30'
             title: SAP CodeJam - TBA
-            subtitle: Welcome and kickoff
-            description: "\U0001F449 [Register here](https://community.sap.com/t5/sap-codejam/) \U0001F448\n\nTBA"
+            subtitle: "¡Bienvenid@s al SAP CodeJam! \U0001F44B"
+            description: "\U0001F449 [Registrarse aqui](https://community.sap.com/t5/sap-codejam/) \U0001F448\n\nTBA"
             speakers:
               - ajmaradiaga
           - time: '11:30 - 12:00'
-            title: "Break \U0001F32F "
-            subtitle: Quick bite and networking
+            title: "Comida \U0001F32F "
+            subtitle: Algo de comer y networking
             speakers: []
           - time: '12:00 - 14:30'
             title: "SAP CodeJam \U0001F9D1‍\U0001F4BB"
-            subtitle: Let's continue with the hands-on learning
+            subtitle: "Continuamos con el aprendizaje \U0001F469‍\U0001F4BB"
             speakers: []
-      - title: 'SIT (17 April, 2026)'
+      - title: SIT (17 de abril 2026)
         events:
           - time: '09:00'
-            title: "Registration \U0001F4DD and Welcome to SIT Madrid! \U0001F44B"
+            title: "Registro \U0001F4DD y bienvenida al SIT Madrid! \U0001F44B"
             speakers: []
           - time: '09:30 - 11:30'
             title: 'Sesiones #1'
             id: tba-talk
-            subtitle: Joe Black
+            subtitle: Speaker(s)
             description: TBA
             speakers:
               - dj-adams
@@ -102,20 +99,21 @@ blocks:
             speakers: []
           - time: '13:30 - 15:00'
             title: 'Sessions #3'
+            subtitle: Speaker(s)
             speakers: []
   - type: text
-    title: "\U0001F5E3️ Do you want to speak at the SIT Madrid?"
+    title: "\U0001F5E3️ Propón una charla para el SIT Madrid"
     id: speakers-wanted
     theme: is-secondary width-full box-fill
     columns: false
     text: >-
-      If you are interested in delivering a cool talk or share your experiences
-      with the SAP community, you can **submit your session proposal
-      [here](https://forms.gle/KCcbvuThsAQjDM6R8)**.
+      ¡Gracias por interesarte en participar como ponente en el SIT Madrid!
+      Vuestra colaboración nos permite ofrecer a los asistentes la mayor
+      variedad en el programa.  **Proponer la charla
+      [aqui](https://forms.gle/KCcbvuThsAQjDM6R8)**.
   - type: speakers
-    title: Speakers
-    description: |
-      Check out the speakers!
+    title: Ponentes
+    theme: is-light width-box box-fill
     speakers:
       - name: Antonio Maradiaga
         id: ajmaradiaga
@@ -140,11 +138,9 @@ blocks:
   - type: separator
     width: is-default
   - type: logos
-    title: Sponsors
+    title: Patrocinadores
     id: sponsors
-    description: >-
-      This event would not be possible without the support of our great
-      sponsors!
+    description: Este evento no seria posible sin el apoyo de nuestros patrocinadores...
     size: medium
     items:
       - alt: EPAM Neoris
@@ -160,18 +156,20 @@ blocks:
         img: /files/logos/Sulzer-Logo.png
         url: 'https://www.sulzer.de/es/'
   - type: text
-    title: Interested in sponsoring the SIT Madrid?
+    title: ¿Interesado en patrocinar el evento?
     id: speakers-wanted
     theme: is-light width-box box-border
     columns: false
     text: >-
-      If you would like to sponsor the event, please get in touch with [Antonio
+      Si te interesa patrocinar el evento, por favor contactar con [Antonio
       Maradiaga](mailto:ajmaradiaga@gmail.com).
   - type: separator
     width: is-default
   - type: people
-    title: Organizers
-    description: This event is made possible by this SAP Community members
+    title: Organizadores
+    description: >-
+      Este evento es posible gracias a la colaboracion de varios miembros de SAP
+      Community.
     items:
       - name: Antonio de Ancos Cid
         img: /files/people/antonio-ancos.jpg
@@ -192,25 +190,23 @@ blocks:
   - type: separator
     width: is-full
   - type: faq
-    title: FAQ
+    title: Preguntas frecuentes
     id: faq
     theme: is-light width-box box-fill
     questions:
-      - question: When is the SIT taking place?
+      - question: ¿Cuando y donde sera el SIT Madrid?
         answer: >-
-          The SAP Inside Track will be on the 21st of March 2025 at the SAP
-          offices in Madrid.
-      - question: >-
-          Can I just attend the SAP CodeJam or do I need to attend to both
-          events?
+          El SAP Inside Track sera el 17 de abril 2026 en el EPAM Neoris AI Hub.
+          La direccion completa esta [aqui](#location).
+      - question: ¿Puedo asistir solamente al CodeJam o a ambos eventos?
         answer: >-
-          The SAP CodeJam and the SAP Inside Track are separate events and you
-          can attend just one event if you wish so.
-      - question: 'I''m interested in sponsoring the event, who can I get in touch with?'
+          El SAP CodeJam y el SAP Inside Track son eventos separados y se puede
+          asistir solo a uno.
+      - question: 'Me interesa patrocinar el evento, ¿con quien debo contactar?'
         answer: >-
-          First of all, thanks for your interest in sponsoring the event. Please
-          get in touch with [Antonio Maradiaga](mailto:ajmaradiaga@gmail.com).
-      - question: Where can I register (RSVP) for the events?
+          Antes que nada, gracias por el interes en patrocinar el evento. Por
+          favor contactar con [Antonio Maradiaga](mailto:ajmaradiaga@gmail.com).
+      - question: ¿Donde me puedo registrar para los eventos?
         answer: >-
           This website is purely informational. Below are the links to register
           for the events:
@@ -220,12 +216,12 @@ blocks:
           - SAP Inside Track:
           [Link](https://community.sap.com/t5/madrid-events/)
   - type: contact
-    title: Contact
+    title: Contacto
     id: contact
     theme: is-light width-box box-fill
     items:
       - title: Antonio Maradiaga
-        info: Organizer
+        info: Parte del equipo organizador
         links:
           - url: 'mailto:ajmaradiaga@gmail.com'
             icon: envelope

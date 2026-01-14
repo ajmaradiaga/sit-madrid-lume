@@ -9,8 +9,8 @@ metas:
   image: /files/img-home.png
 state: pre-event
 cta:
-  text: "RSVP to the event \U0001F3AB"
+  text: "RSVP al evento \U0001F3AB"
   url: 'https://community.sap.com/t5/madrid-events/eb-p/madridoccasion-board'
 footer:
   logo: /files/logos/logo.png
-  copyright: "© 2024<br>\r\nCreated with [Lume](https://lume.land) & TOP Theme<br>\r\n[humans.txt](/humans.txt)\r\n"
+  copyright: "© 2026<br>\r\nCreated with [Lume](https://lume.land) & TOP Theme<br>\r\n[humans.txt](/humans.txt)\r\n"
