@@ -19,7 +19,7 @@ blocks:
     id: main-logo
     theme: is-primary width-full box-fill
     src: ' /files/sit-madrid-red-black-background.png'
-    text: "\U0001F5D3️ 21st of March 2025\r\n\r\n\U0001F9ED SAP office in Madrid, Spain\r\n\r\n## [RSVP Now \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2025-mar-21-2025/ev-p/13944045)"
+    text: "\U0001F5D3️ 17th of April 2026\n\n\U0001F9ED [EPAM Neoris AI Hub](https://maps.app.goo.gl/Gr94MTeWYiRs27A8A) - C. del Musgo, 2, Edificio Europa II - Bajo G, Moncloa - Aravaca, 28023 Madrid\n\n## [RSVP Now \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-abr-17-2026)"
   - type: imagetext
     id: what-is-sit
     theme: is-primary width-full box-fill
@@ -37,31 +37,39 @@ blocks:
     theme: is-light width-box box-fill
     embed: >-
       <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.1058263662526!2d-3.696475221891351!3d40.450794653561864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42294abbd39cff%3A0x630765538152924d!2sSAP%20Espa%C3%B1a%2C%20S.A.%20-%20Madrid!5e0!3m2!1sen!2ses!4v1731960261928!5m2!1sen!2ses"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d888.2080225210408!2d-3.802627770424497!3d40.46644210782142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41875f66366fb3%3A0xcc59e6edac7b3dbd!2sEPAM%20Madrid!5e0!3m2!1sen!2ses!4v1768391528083!5m2!1sen!2ses"
       width="600" height="450" style="border:0;" allowfullscreen=""
       loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    caption: Ubicacion de EPAM Neoris AI Hub
     directions:
       - title: Address
-        description: 'Pl. Pablo Ruiz Picasso, 11, Floor 3, 28020 Madrid'
-        icon: map-pin
-      - title: Metro
-        description: Metro Santiago Bernabeu (Line 10)
+        description: >-
+          C. del Musgo, 2, Edificio Europa II - Bajo G, Moncloa - Aravaca, 28023
+          Madrid
+        icon: train-simple
+      - title: Cercanias
+        description: >-
+          [El Barrial-Centro Comercial-Pozuelo (C7,
+          C10)](https://maps.app.goo.gl/gkGUuuwfR58bmJqr5)
         icon: train-simple
       - title: Train
         description: 'Nuevos Ministerios (C1, C2, C3, C4, C7, C10)'
         icon: train
+  - type: separator
+    width: is-default
   - type: calendar
-    title: Calendar
+    title: Eventos
     id: calendar
+    theme: is-light width-box box-border
     days:
-      - title: 'Pre-SIT (20 March, 2025)'
+      - title: 'Pre-SIT (16 April, 2026)'
         events:
           - time: '09:30 - 11:30'
-            title: "SAP CodeJam - \U0001F1EA\U0001F1F8 Service integration with SAP Cloud Application Programming Model \U0001F469‍\U0001F4BB"
+            title: SAP CodeJam - TBA
             subtitle: Welcome and kickoff
-            description: "\U0001F449 [Register here](https://community.sap.com/t5/sap-codejam/service-integration-with-sap-cloud-application-programming-model-madrid/ec-p/13962160) \U0001F448\r\n\r\nYou'll become acquainted with how external services can be integrated and consumed from within a CAP project. In working through the exercises you'll also become comfortable with various facilities that CDS offers for declaring, relating and exposing entities, and familiar with how the SAP Cloud SDK covers connectivity and destinations, supporting such integration scenarios with CAP."
+            description: "\U0001F449 [Register here](https://community.sap.com/t5/sap-codejam/) \U0001F448\n\nTBA"
             speakers:
-              - dj-adams
+              - ajmaradiaga
           - time: '11:30 - 12:00'
             title: "Break \U0001F32F "
             subtitle: Quick bite and networking
@@ -70,126 +78,31 @@ blocks:
             title: "SAP CodeJam \U0001F9D1‍\U0001F4BB"
             subtitle: Let's continue with the hands-on learning
             speakers: []
-      - title: 'SIT (21 March, 2025)'
+      - title: 'SIT (17 April, 2026)'
         events:
           - time: '09:00'
             title: "Registration \U0001F4DD and Welcome to SIT Madrid! \U0001F44B"
             speakers: []
-          - time: '09:30'
-            title: Level up your CAP skills by learning how to use the cds repl
-            id: dj-adams-cds
-            subtitle: DJ Adams
-            description: >-
-              The cds repl (REPL stands for Read Evaluate Print Loop) is an
-              extremely powerful and versatile tool for every CAP Node.js
-              developer. In this session, you'll become acquainted with it, get
-              a feel for what it's like, how to wield its powers, and more. No
-              experience required, this will be a live session with no slides.
+          - time: '09:30 - 11:30'
+            title: 'Sesiones #1'
+            id: tba-talk
+            subtitle: Joe Black
+            description: TBA
             speakers:
               - dj-adams
-          - time: '10:00'
-            title: >-
-              Knowledge Graphs: From Fundamentals to Implementation with SAP
-              S/4HANA and Enterprise Applications
-            id: antonio-leites-tbd
-            subtitle: Antonio Leites
-            description: >-
-              This talk introduces Knowledge Graphs as a powerful framework for
-              representing complex relationships within data. We'll illustrate
-              practical methods for constructing Knowledge Graphs from SAP
-              S/4HANA, focusing on extraction techniques and data modeling
-              approaches specific to SAP environments. The session concludes by
-              exploring SAP's strategic implementation of Knowledge Graph
-              technology across its enterprise solutions, highlighting
-              real-world applications and business value.
-            speakers:
-              - antonio-leites
-          - time: '10:30'
-            title: >-
-              How SAP Cloud ALM helps you to implement and operate intelligent
-              cloud and hybrid business solutions
-            id: maria-teresa-cloud-alm
-            subtitle: María Teresa Gutiérrez Lumbreras
-            description: >-
-              The main purpose of the presentation is to showcase the value of
-              SAP Cloud ALM for customers to support implementation projects,
-              manage application operations and optimize business processes. It
-              also includes a live demo of Operations and Implementation
-              functionality within a SAP Cloud ALM tenant.
-            speakers:
-              - maria-gutierrez
           - time: '11:00'
             title: "Break # 1 \U0001F950 ☕️"
             speakers: []
-          - time: '11:30'
-            title: 'SAP Business AI: Latest Breakthroughs and Future Prospects'
-            id: salvador-gimeno-business-ai
-            subtitle: Salvador Gimeno Desco
-            description: >-
-              In this session it will be presented the strategic vision, key
-              components and benefits of the SAP Business AI portfolio, as well
-              as exploring some ongoing projects and developments within SAP
-              Business AI Foundation Models unit and highlight how they are
-              shaping the future of our AI capabilities.
-            speakers:
-              - salvador-gimeno
-          - time: '12:00'
-            title: Code10 CI Accelerator - The Integration Suite Addon
-            subtitle: Antonio Valladares Fernandez
-            description: >-
-              Presentation of the Code10 CI Accelerator Addon for Integration
-              suite, and show the new CAP applications we develop for enhancing
-              the monitoring and add multiple features more to Integration
-              Suite.
-            speakers:
-              - antonio-valladares
-          - time: '12:30'
-            title: Building flexible Event-Driven Architectures with open standards
-            id: ajmaradiaga-eda
-            subtitle: Antonio Maradiaga
-            description: "Event-driven architectures (EDA) promise scalability, responsiveness, and decoupled communication, but achieving interoperability and vendor independence can be challenging. This talk covers three powerful open standards — CloudEvents, HTTP and the Advanced Message Queuing Protocol (AMQP) — as foundational building blocks to simplify, standardize, and enhance your EDA implementations.\r\n\r\nThis session explores how CloudEvents offers a standardized way to describe events across diverse platforms, enabling applications to speak a universal \"event language\". We'll examine how HTTP can serve as a simple yet powerful entry point for event integration, bridging legacy and modern applications and how AMQP provides robust and reliable messaging capabilities, ideal for scalable event-driven systems."
-            speakers:
-              - ajmaradiaga
+          - time: '11:30 - 14:00'
+            title: 'Sesiones #2'
+            subtitle: Speaker(s)
+            speakers: []
           - time: '13:00'
             title: "Break #2 \U0001F32D\U0001F964"
             speakers: []
-          - time: '13:30'
-            title: >-
-              Building a Personal AI Fitness Coach with SAP BTP, STRAVA, and
-              Ollama GenAI
-            id: igor-narodowy-ai-fitness-coach
-            subtitle: Igor Narodowy
-            description: "Discover how to leverage SAP Business Technology Platform (BTP) and CAPM with Node.js to create a cutting-edge personal AI fitness coach. \r\nThis session will explore the integration of STRAVA for fitness tracking and Ollama GenAI for personalized coaching, \r\ndemonstrating how these technologies can revolutionize fitness and wellness applications."
-            speakers:
-              - igor-narodowy
-          - time: '14:00'
-            title: >-
-              Mastering Connectivity & Accelerating Integrations with
-              prepackaged integration content
-            subtitle: Roberto Viana and Sander Kool
-            description: >-
-              During this session we will explore the latest connectivity
-              features of SAP Integration Suite, with a special focus on SAP
-              Cloud Integration (SAP CI). We will discover how to seamlessly
-              integrate with third-party systems using the newest SAP CI
-              adapters, explore SAP’s roadmap for new adapters, and discuss when
-              to use Open Connectors—and when not to. We will also learn how to
-              cut down implementation time, reduce project risks, and accelerate
-              your integration projects with prepackaged integration content in
-              SAP CI.
-            speakers:
-              - roberto-viana
-              - sander-kool
-          - time: '14:30'
-            title: SAP Customer Insights Dashboard
-            subtitle: Lluis Salvador
-            description: >-
-              Take control of your business core trough this new Support
-              dashboard where you will be able to monitor not only your own
-              incidents if not also that ones that has been reported by SAP
-              partners working in your SAP systems.
-            speakers:
-              - lluis-salvador
+          - time: '13:30 - 15:00'
+            title: 'Sessions #3'
+            speakers: []
   - type: text
     title: "\U0001F5E3️ Do you want to speak at the SIT Madrid?"
     id: speakers-wanted
@@ -201,88 +114,9 @@ blocks:
       [here](https://forms.gle/KCcbvuThsAQjDM6R8)**.
   - type: speakers
     title: Speakers
-    description: "Check out the speakers!\r\n"
+    description: |
+      Check out the speakers!
     speakers:
-      - name: DJ Adams
-        id: dj-adams
-        company: SAP
-        role: Developer Advocate
-        bio: >-
-          DJ focuses on integration and extension topics on the SAP Business
-          Technology Platform. He runs a regular live-stream on the SAP
-          Developers “Hands-on SAP Dev” show and enjoys sharing his curiosity on
-          many SAP development topics. He read Classics at university, has
-          worked on SAP systems since 1987, co-created the SAP Community, and is
-          a lifelong learner.
-        image: /files/people/dj-adams.png
-        links:
-          - icon: users-four
-            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/53'
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/djadams/'
-          - icon: github-logo
-            url: 'https://github.com/qmacro'
-          - icon: house
-            url: 'https://qmacro.org'
-      - name: Salvador Gimeno Desco
-        id: salvador-gimeno
-        company: SAP
-        role: >-
-          Director. Lead AI Scientist for Economic Indicators. SAP Business AI
-          Products & Engineering
-        bio: >-
-          Seasoned AI & Data Specialist with 27 years of extensive experience in
-          the SAP industry. Since 2019, he has served as Director and Senior
-          Data Scientist at the SAP AI Frontrunner Unit, where he has led
-          numerous high-profile customer and internal projects across various AI
-          technologies. Over the past two years, Salvador has focused on the
-          GenAI4ABAP project, spearheading the development of foundational
-          models for automating ABAP code generation and taking the lead on ABAP
-          Unit Test generation.
-        image: /files/people/salvador-gimeno.jpg
-        links:
-          - icon: users-four
-            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/213423'
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/salvadorgimeno/'
-      - name: María Teresa Gutiérrez Lumbreras
-        id: maria-gutierrez
-        company: SAP
-        role: Senior Support Engineer
-        bio: >-
-          Maria Teresa is a Senior Support Engineer at SAP España. She's been
-          part of the Technical Support team since 2005. Her journey began with
-          supporting the Netweaver area, and later transitioned to the Solution
-          Manager area, specifically focusing on Change Request Management,
-          Focused Build and ITSM. Currently, she works with the SAP Cloud ALM
-          product.
-        image: /files/people/maria-teresa-gutierrez.jpg
-        links:
-          - icon: users-four
-            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/237373'
-      - name: Sander Kool
-        id: sander-kool
-        company: Rojo Integrations
-        role: Enterprise Integration Consultant
-        bio: >-
-          Energetic, dedicated and purposeful Enterprise Integration Consultant.
-          Active as consultant for Rojo Consultancy in Cloud and On-Premise
-          Integration and API Management projects in different industries.
-        image: /files/people/sander-kool.jpg
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/sanderhmkool/'
-      - name: Antonio Leites
-        id: antonio-leites
-        company: Sulzer GmbH
-        role: SAP S/4HANA & DevOps Practice Lead
-        bio: "Business Consulting in SAP Information Systems since 1989. I have been participating in the development and growth of the SAP culture creating two cutting egde consulting firms in this field that they were sold later to a big european multinational.\r\n\r\nSpecialties: Wide knowlegde in lastest business technology. Big Capacity to develop motivated teams."
-        image: /files/people/antonio-leites.jpg
-        links:
-          - icon: users-four
-            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/14411'
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/antonioleites/'
       - name: Antonio Maradiaga
         id: ajmaradiaga
         company: SAP
@@ -303,73 +137,6 @@ blocks:
             url: 'https://github.com/ajmaradiaga'
           - icon: house
             url: 'https://ajmaradiaga.com'
-      - name: Igor Narodowy
-        id: igor-narodowy
-        company: Capgemini
-        role: Senior SAP application consultant
-        bio: >-
-          Experienced SAP Advanced Business Application Programming Developer in
-          ABAP and FIORI with over 14 years of experience with strong analytical
-          and conceptual solving abilities for SAP ECC.
-        image: /files/people/igor-narodowy.jpg
-        links:
-          - icon: users-four
-            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/38143'
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/igor-narodowy-691a52141/'
-      - name: Lluis Salvador
-        id: lluis-salvador
-        company: Seidor
-        role: SAP Champion and SAP Solution Manager Consultant (ALM)
-        bio: >-
-          On the administration and setup of SAP Solution Manager Solution in a
-          Support Department in Seidor S.A, managing a technical department for
-          fulfill correctly all maintenance work on that solution and guaranty
-          the success of the correct support for Seidor’s customer and more than
-          2.000,00 users. As well as the preparation for learning material of
-          that solution and the execution of on-line presentation of that tool
-          functionality.
-        image: /files/people/lluis-salvador.jpg
-        links:
-          - icon: users-four
-            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/733'
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/solutionmanagersap/'
-      - name: Antonio Valladares Fernandez
-        id: antonio-valladares
-        company: Code10
-        role: CEO @ Code-10 IT
-        bio: >-
-          SAP PI (Process Integration) SAP PO (Process Orchestration) consultant
-          with master degree in Computer Engineering, strong JAVA background
-          with extensive knowledge of the various SAP modules and programming
-          capability of ABAP4. Experienced in IT procedures, project
-          live-cycles, test methodology apply to project phases (UT, SIT, UAT
-          and Hypercare phases). Exposure to Waterfall and AGILE methodologies.
-          Good communication skills and geographic availability.
-        image: /files/people/antonio-valladares.jpg
-        links:
-          - icon: users-four
-            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/123863'
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/antonio-valladares/'
-      - name: Roberto Viana
-        id: roberto-viana
-        company: Rojo Integrations
-        role: Managing Partner & Enterprise Integration Aficionado
-        bio: >-
-          Roberto Viana is managing partner at Rojo Integrations.com, SAP Press
-          book author, truly digital geek, philanthropist and fervent believer
-          of ‘Tech for Good’: Using technology to smooth disruption and improve
-          well-being. He worked in the past for global leading consultancy
-          firms; PriceWaterHouseCoopers, IBM, Capgemini, Accenture and
-          Bearingpoint.
-        image: /files/people/roberto-viana.jpg
-        links:
-          - icon: users-four
-            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/763590'
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/vianaroberto/'
   - type: separator
     width: is-default
   - type: logos
@@ -380,6 +147,9 @@ blocks:
       sponsors!
     size: medium
     items:
+      - alt: EPAM Neoris
+        img: /files/logos/epam-neoris.png
+        url: 'https://epamneoris.com/'
       - alt: SAP
         img: /files/logos/sap-logo.png
         url: 'https://sap.com'
@@ -389,9 +159,6 @@ blocks:
       - alt: Sulzer
         img: /files/logos/Sulzer-Logo.png
         url: 'https://www.sulzer.de/es/'
-      - alt: Code10
-        img: /files/logos/Code10.png
-        url: 'https://code10it.com/'
   - type: text
     title: Interested in sponsoring the SIT Madrid?
     id: speakers-wanted
@@ -444,7 +211,14 @@ blocks:
           First of all, thanks for your interest in sponsoring the event. Please
           get in touch with [Antonio Maradiaga](mailto:ajmaradiaga@gmail.com).
       - question: Where can I register (RSVP) for the events?
-        answer: "This website is purely informational. Below are the links to register for the events:\r\n- SAP CodeJam: [Link](https://community.sap.com/t5/sap-codejam/service-integration-with-sap-cloud-application-programming-model-madrid/ec-p/13962160)\r\n- SAP Inside Track: [Link](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2025-mar-21-2025/ev-p/13944045)"
+        answer: >-
+          This website is purely informational. Below are the links to register
+          for the events:
+
+          - SAP CodeJam: [Link](https://community.sap.com/t5/sap-codejam/)
+
+          - SAP Inside Track:
+          [Link](https://community.sap.com/t5/madrid-events/)
   - type: contact
     title: Contact
     id: contact
@@ -460,4 +234,4 @@ metas:
   image: ''
   title: SAP Inside Track Madrid 2025
 url: /
-title: SIT Madrid 2025
+title: SIT Madrid 2026

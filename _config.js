@@ -5,4 +5,6 @@ const site = lume();
 
 site.use(top());
 
+site.ignore("README.md", "CHANGELOG.md", "node_modules");
+
 export default site;
