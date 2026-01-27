@@ -19,7 +19,7 @@ blocks:
     id: main-logo
     theme: is-primary width-full box-fill
     src: ' /files/sit-madrid-red-black-background.png'
-    text: "\U0001F5D3️ 17 de abril 2026\n\n\U0001F9ED [EPAM Neoris AI Hub](https://maps.app.goo.gl/Gr94MTeWYiRs27A8A) - C. del Musgo, 2, Edificio Europa II - Bajo G, Moncloa - Aravaca, 28023 Madrid\n\n## [RSVP Now \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-abr-17-2026)"
+    text: "\U0001F5D3️ 17 de abril 2026\n\n\U0001F9ED [EPAM Neoris AI Hub](https://maps.app.goo.gl/uFmpjrYwayyx9GS16) - C. de María de Portugal, 1, Hortaleza, 28050 Madrid\n\n## [RSVP Now \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-abr-17-2026)"
   - type: imagetext
     id: what-is-sit
     theme: is-primary width-full box-fill
@@ -37,21 +37,22 @@ blocks:
     theme: is-light width-box box-fill
     embed: >-
       <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d888.2080225210408!2d-3.802627770424497!3d40.46644210782142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41875f66366fb3%3A0xcc59e6edac7b3dbd!2sEPAM%20Madrid!5e0!3m2!1sen!2ses!4v1768391528083!5m2!1sen!2ses"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.103962272104!2d-3.6676984222642637!3d40.495084071427016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229559aabda55%3A0x418763045875e97c!2sNEORIS!5e0!3m2!1sen!2ses!4v1769510476743!5m2!1sen!2ses"
       width="600" height="450" style="border:0;" allowfullscreen=""
       loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     caption: Ubicacion de EPAM Neoris AI Hub
     directions:
       - title: EPAM Neoris AI Hub
-        description: >-
-          C. del Musgo, 2, Edificio Europa II - Bajo G, Moncloa - Aravaca, 28023
-          Madrid
+        description: 'C. de María de Portugal, 1, Hortaleza, 28050 Madrid'
         icon: map-pin-area
-      - title: Cercanias
+      - title: Buses
         description: >-
-          [El Barrial-Centro Comercial-Pozuelo (C7,
-          C10)](https://maps.app.goo.gl/gkGUuuwfR58bmJqr5)
-        icon: train
+          - [Maria de Portugal-Fco. Pi Y Margall - Stop ID: 3780 - Linea
+          155B](https://maps.app.goo.gl/3uVF5dJh1cRWmsoB8)
+
+          - [Av.Burgos-Fco.Pi Y Margall - Stop ID:
+          3261](https://maps.app.goo.gl/m8jJjYT1zTHo8ALA8)
+        icon: bus
   - type: separator
     width: is-default
   - type: calendar
