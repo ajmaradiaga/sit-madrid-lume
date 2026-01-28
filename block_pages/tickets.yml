@@ -29,7 +29,8 @@ blocks:
         img: /files/tickets/ticket.png
         buy:
           text: RSVP now
-          url: 'https://community.sap.com/t5/madrid-events/eb-p/madridoccasion-board'
+          url: >-
+            https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-apr-17-2026/ec-p/14316541
           disabled: false
         features:
           - event_pass

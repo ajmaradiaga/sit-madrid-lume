@@ -110,8 +110,8 @@ blocks:
     text: >-
       ¡Gracias por interesarte en participar como ponente en el SIT Madrid!
       Vuestra colaboración nos permite ofrecer a los asistentes la mayor
-      variedad en el programa.  **Proponer la charla
-      [aqui](https://forms.gle/KCcbvuThsAQjDM6R8)**.
+      variedad en el programa.  **[Proponer la charla
+      aqui](https://forms.gle/vnw6AjsY5sPo63mf7)**.
   - type: speakers
     title: Ponentes
     theme: is-light width-box box-fill
@@ -148,7 +148,7 @@ blocks:
         img: /files/logos/epam-neoris.png
         url: 'https://epamneoris.com/'
       - alt: SAP
-        img: /files/logos/sap-logo.png
+        img: /files/logos/sap-logo-small.png
         url: 'https://sap.com'
       - alt: SAP Press
         img: /files/logos/SAP_PRESS_with_box.jpg
@@ -188,6 +188,9 @@ blocks:
         img: /files/people/phil.jpg
         url: 'https://www.linkedin.com/in/philnell/'
         description: '@Phil_from_Madrid'
+      - name: Evgenii Shirokikh
+        img: /files/people/evgenii-shirokikh.jpeg
+        url: 'https://www.linkedin.com/in/evgenii-sh/'
   - type: separator
     width: is-full
   - type: faq

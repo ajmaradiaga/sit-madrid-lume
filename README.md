@@ -24,7 +24,6 @@ deno task lume
 ```
 
 ## Deployment
-To deploy the website, use the following command:
-```bash
-./push-output-repo.sh
-```
+To deploy the website:
+
+Just commit the changes to the `main` branch. The deployment process is automated using GitHub Actions.
