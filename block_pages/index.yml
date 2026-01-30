@@ -19,18 +19,19 @@ blocks:
     id: main-logo
     theme: is-primary width-full box-fill
     src: ' /files/sit-madrid-red-black-background.png'
-    text: "\U0001F5D3️ 17 de abril 2026\n\n\U0001F9ED [EPAM Neoris AI Hub](https://maps.app.goo.gl/uFmpjrYwayyx9GS16) - C. de María de Portugal, 1, Hortaleza, 28050 Madrid\n\n## [RSVP Now \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-abr-17-2026)"
+    text: "\U0001F5D3️ 17 de abril 2026\n\n\U0001F9ED [EPAM Neoris AI Hub](https://maps.app.goo.gl/uFmpjrYwayyx9GS16) - C. de María de Portugal, 1, Hortaleza, 28050 Madrid\n\n## [¡Regístrate ahora! \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-apr-17-2026/ev-p/14316541)"
   - type: imagetext
     id: what-is-sit
     theme: is-primary width-full box-fill
     src: /files/photos/madrid-metropolis-arriba.jpg
     text: >-
-      *An SAP Inside Track (SIT) is a local grassroots community event where SAP
-      Community members come together to share knowledge about SAP related
-      topics. The event is driven/organized by the community, everyone who is
-      interested may participate. Everyone can benefit or contribute: act as
-      presenter, take part in discussions, exchange information, realize
-      networking or enjoy the social get-togethers in the evening.*
+      *Un SAP Inside Track (SIT) es un evento comunitario local donde los
+      miembros de la Comunidad SAP se reúnen para compartir conocimientos sobre
+      temas relacionados con SAP. El evento es impulsado/organizado por la
+      comunidad, todos los interesados pueden participar. Todos pueden
+      beneficiarse o contribuir: actuar como presentador, participar en
+      discusiones, intercambiar información, hacer networking o disfrutar de las
+      reuniones sociales por la noche.*
   - type: location
     title: ¿Cómo llegar?
     id: location
@@ -103,7 +104,7 @@ blocks:
             subtitle: Speaker(s)
             speakers: []
   - type: text
-    title: "\U0001F5E3️ Propón una charla para el SIT Madrid"
+    title: "\U0001F5E3️ Propón una charla para el SIT Madrid /  Do you want to speak at the SIT Madrid?"
     id: speakers-wanted
     theme: is-secondary width-full box-fill
     columns: false
@@ -112,6 +113,11 @@ blocks:
       Vuestra colaboración nos permite ofrecer a los asistentes la mayor
       variedad en el programa.  **[Proponer la charla
       aqui](https://forms.gle/vnw6AjsY5sPo63mf7)**.
+
+
+      Thank you for your interest in speaking at the SIT Madrid! Your
+      contribution allows us to offer attendees the greatest variety in the
+      program. **[Propose a talk here](https://forms.gle/vnw6AjsY5sPo63mf7)**.
   - type: speakers
     title: Ponentes
     theme: is-light width-box box-fill

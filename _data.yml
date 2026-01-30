@@ -8,7 +8,7 @@ metas:
   image: /files/img-home.png
 state: pre-event
 cta:
-  text: "RSVP al evento \U0001F3AB"
+  text: "Regístrate al evento \U0001F3AB"
   url: >-
     https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-apr-17-2026/ec-p/14316541
 footer:
