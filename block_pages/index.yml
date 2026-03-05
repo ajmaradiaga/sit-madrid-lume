@@ -153,6 +153,12 @@ blocks:
       - alt: EPAM Neoris
         img: /files/logos/epam-neoris.png
         url: 'https://epamneoris.com/'
+      - alt: Code10
+        img: /files/logos/Code10.png
+        url: 'https://code10it.com/'
+      - alt: Expertux
+        img: /files/logos/expertux.png
+        url: 'https://xpertux.es/'
       - alt: SAP
         img: /files/logos/sap-logo-small.png
         url: 'https://sap.com'
@@ -162,6 +168,9 @@ blocks:
       - alt: Sulzer
         img: /files/logos/Sulzer-Logo.png
         url: 'https://www.sulzer.de/es/'
+      - alt: Espresso Tutorials
+        img: /files/logos/espresso-tutorials.png
+        url: 'https://www.espresso-tutorials.com/'
   - type: text
     title: ¿Interesado en patrocinar el evento?
     id: speakers-wanted
