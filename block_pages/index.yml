@@ -19,7 +19,7 @@ blocks:
     id: main-logo
     theme: is-primary width-full box-fill
     src: ' /files/sit-madrid-red-black-background.png'
-    text: "\U0001F5D3️ 17 de abril 2026\n\n\U0001F9ED [EPAM Neoris AI Hub](https://maps.app.goo.gl/uFmpjrYwayyx9GS16) - C. de María de Portugal, 1, Hortaleza, 28050 Madrid\n\n## [¡Regístrate ahora! \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-apr-17-2026/ev-p/14316541)"
+    text: "\U0001F5D3️ 16 y 17 de abril 2026\n\n\U0001F9ED [NEORIS Artificial Intelligence Hub, powered by EPAM](https://maps.app.goo.gl/uFmpjrYwayyx9GS16) - C. de María de Portugal, 1, Hortaleza, 28050 Madrid\n\n## [¡Regístrate ahora! \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-apr-17-2026/ev-p/14316541)"
   - type: imagetext
     id: what-is-sit
     theme: is-primary width-full box-fill
