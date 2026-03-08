@@ -82,7 +82,7 @@ blocks:
           - time: '09:00'
             title: "Registro \U0001F4DD y bienvenida al SIT Madrid! \U0001F44B"
             speakers: []
-          - time: '09:30 - 11:30'
+          - time: '09:30 - 11:00'
             title: 'Sesiones #1'
             id: tba-talk
             subtitle: Speaker(s)
@@ -92,7 +92,7 @@ blocks:
           - time: '11:00'
             title: "Break # 1 \U0001F950 ☕️"
             speakers: []
-          - time: '11:30 - 14:00'
+          - time: '11:30 - 13:00'
             title: 'Sesiones #2'
             subtitle: Speaker(s)
             speakers: []
