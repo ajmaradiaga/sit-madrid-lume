@@ -64,9 +64,9 @@ blocks:
       - title: Pre-SIT (16 de abril 2026)
         events:
           - time: '09:30 - 11:30'
-            title: SAP CodeJam - TBA
+            title: "SAP CodeJam - \U0001F1EA\U0001F1F8 Joule Studio: Create Joule Skills and Agents Without Coding (Madrid, Spain)"
             subtitle: "¡Bienvenid@s al SAP CodeJam! \U0001F44B"
-            description: "\U0001F449 [Registrarse aqui](https://community.sap.com/t5/sap-codejam/) \U0001F448\n\nTBA"
+            description: "\U0001F449 [Registrarse aqui](https://community.sap.com/t5/sap-codejam/joule-studio-create-joule-skills-and-agents-without-coding-madrid-spain/ec-p/14344415#M1113) \U0001F448\n\n\nEste CodeJam se enfoca en Joule Studio, la nueva herramienta en SAP Build, que te permite crear extensiones para Joule, ya sea Joule Skills o Agentes."
             speakers:
               - ajmaradiaga
           - time: '11:30 - 12:00'
@@ -230,7 +230,8 @@ blocks:
           This website is purely informational. Below are the links to register
           for the events:
 
-          - SAP CodeJam: [TBA]
+          - SAP CodeJam:
+          [Link](https://community.sap.com/t5/sap-codejam/joule-studio-create-joule-skills-and-agents-without-coding-madrid-spain/ec-p/14344415#M1113)
 
           - SAP Inside Track:
           [Link](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-apr-17-2026/ev-p/14316541)
