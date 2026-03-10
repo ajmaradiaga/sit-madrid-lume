@@ -82,27 +82,166 @@ blocks:
           - time: '09:00'
             title: "Registro \U0001F4DD y bienvenida al SIT Madrid! \U0001F44B"
             speakers: []
-          - time: '09:30 - 11:00'
-            title: 'Sesiones #1'
-            id: tba-talk
-            subtitle: Speaker(s)
-            description: TBA
+          - time: '09:30'
+            title: MCP para SAP Datasphere
+            id: mcp-datasphere
+            subtitle: Mario de Felipe
+            description: >-
+              En esta sesion puedo enseñar el MCP para SAP Datasphere, que es
+              Open Source, y ademas lo puedo combinar con el plugin para Claude
+              Cowork, que tambien es gratis. Como automatizar tareas de SAP
+              Datasphere utilizando lenguage natural.
             speakers:
-              - dj-adams
+              - mario-de-felipe
+          - time: '10:00'
+            title: Analysis of Integrations in SAP CPI at Scale
+            id: cpi-scale
+            subtitle: Vadim Klimov
+            description: >-
+              As SAP Integration Suite adoption grows, the number of
+              integrations in SAP Cloud Integration tenants can easily reach
+              hundreds or even thousands, making manual configuration analysis a
+              tedious task. In this session, we explore how advanced analytics
+              and Machine Learning can be used to analyze integration
+              configurations on the fly and at scale. We will get familiar with
+              the technical architecture and implementation details required to
+              identify common patterns and detect anomalies that deviate from
+              the norm in the tenant.
+            speakers:
+              - vadim-klimov
+          - time: '10:30'
+            title: A look behind the Delta Share Protocol
+            id: delta-share
+            subtitle: Philipp Nell
+            description: >-
+              In the modern data landscape, moving large datasets between
+              platforms creates silos, latency, and security risks. This session
+              provides a technical deep dive into Delta Sharing, the open
+              standard protocol that enables "zero-copy" data exchange. We will
+              explore how this REST-based protocol decouples data storage from
+              compute, allowing SAP Business Data Cloud to serve as a secure
+              Data Provider that shares live data directly with diverse
+              consumers like Databricks, Snowflake, and Google Cloud Platform
+              (GCP) without physical replication.
+            speakers:
+              - philipp-nell
           - time: '11:00'
             title: "Break # 1 \U0001F950 ☕️"
             speakers: []
-          - time: '11:30 - 13:00'
-            title: 'Sesiones #2'
-            subtitle: Speaker(s)
+          - time: '11:30'
+            title: Clean Core de la A a la C
+            id: clean-core-a-c
+            subtitle: Edgar Jiménez
+            description: >-
+              You need to design a new solution, you want it to be Clean Core of
+              course, but... Is it better if you develop it on-stack?
+              Side-by-side? Full-stack? For the BTP side of it... RAP? CAP? On
+              Kyma? Do you need it to be multi-tenant? What DB will you use?
+              HANA or PostgreSQL? Will share our experience and rationale to get
+              to the best design for you and your specific solution/extension.
+            speakers:
+              - edgar-jimenez
+          - time: '12:00'
+            title: 'SAP Build sin filtros: lo bonito, lo feo y los 403 del camino'
+            id: build-sin-filtros
+            subtitle: Gerard Lagalina Pacheco
+            description: >-
+              SAP Build sin filtros: lo bonito, lo feo y los 403 del camino
+
+
+              ¿Qué pasa cuando un consultor ABAP con más de 20 años de
+              experiencia se enfrenta a SAP Build Apps y SAP Build Process
+              Automation por primera vez para construir algo real? Esta sesión
+              es exactamente eso: una experiencia sin maquillaje.
+
+
+              Compartiré el proceso completo de construcción de una aplicación
+              de gestión de gastos desde cero, conectando SAP Build Apps con un
+              S/4HANA 2023 on-premise a través de Cloud Connector y BTP, con un
+              backend desarrollado en RAP (OData V4) y planes de integración con
+              servicios de AWS para procesamiento de imágenes con inteligencia
+              artificial(Este punto no es del todo seguro).
+
+
+              No es una demo preparada donde todo funciona a la primera. Es el
+              camino real: los errores 403 por CSRF tokens que no llegan, los
+              dumps de autorización que nadie te cuenta, el Location ID que se
+              te olvida, los destinos BTP que necesitan propiedades que no
+              aparecen en ningún tutorial, y las horas de troubleshooting con
+              logs del Cloud Connector y DevTools del navegador.
+
+
+              Pero también es lo bonito: ver cómo en una sesión puedes pasar de
+              una tabla ABAP vacía a una aplicación móvil funcional que crea
+              tickets reales en tu S/4HANA. La potencia de RAP con Clean Core,
+              la rapidez del no-code para prototipar, y la satisfacción de que
+              el Create record finalmente devuelva un 200.
+
+
+              Esta sesión es para ti si eres consultor ABAP o funcional con
+              curiosidad por Build Apps, si estás evaluando SAP Build para tu
+              empresa, o si simplemente quieres ver qué implica realmente
+              conectar el mundo on-premise con BTP sin que nadie te venda humo.
             speakers: []
+          - time: '12:30'
+            title: Disaster Recovery in SAP Integration
+            subtitle: Evgenii Shirokikh & Aleksandr Ivanov
+            description: >-
+              You know how once in a while SAP Cloud Integration runtime becomes
+              unresponsive and your messages are just lost? These are the
+              approaches and tactics of solving it by building resilient
+              architecture.
+            speakers:
+              - evgenii-shirokikh
+              - aleksandr-ivanov
           - time: '13:00'
             title: "Break #2 \U0001F32D\U0001F964"
             speakers: []
-          - time: '13:30 - 15:00'
-            title: 'Sessions #3'
-            subtitle: Speaker(s)
+          - time: '13:30'
+            title: 'Integration Suite: Avoid Integration Catastrophes'
+            id: integration-catastrophes
+            subtitle: Antonio Valladares Fernández
+            description: >-
+              No matter if you plan a SAP PI/PO migration or a Greenfield
+              implementation, we want to show the benefits of using Integration
+              Patterns in your future design to improve performance, error
+              handling, alerting and avoid spaghetti programing. 
+            speakers:
+              - antonio-valladares
+          - time: '14:00'
+            title: 'Clean Core en la práctica: Desarrollo RESTful en SAP'
+            id: clean-core-practica
+            subtitle: Jose Carlos Alfonso
+            description: >-
+              La ponencia trata de explicar un ejemplo real de cómo abordar un
+              desarrollo que cumpla con los requisitos del cliente en cuando a
+              funcionalidad, roles y arquitectura en un contexto de “Clean Core”
+              y como eso a veces presenta dificultades en módulos de SAP no tan
+              abiertos o desarrollados para cumplir con ciertos criterios. Se
+              hará una primera parte de la presentación donde se explique el
+              contexto de la solución y los requerimientos y posteriormente se
+              mostrará como se han solucionado las dificultades encontradas y
+              una visión global de la solución desde el punto de vista técnico.
+              Creemos que es un buen ejemplo puesto que pone de manifiesto
+              varios temas como son, el desarrollo de aplicaciones, experiencias
+              reales de cliente, el diseño de aplicaciones que cumplan con
+              criterios de Clean Core y el uso de RAP. La charla está pensada
+              para personas de carácter técnico con una visión completa del
+              diseño de aplicaciones tanto en Fiori como en ABAP o RAP. 
             speakers: []
+          - time: '14:30'
+            title: Llevar datos a ficheros y exponerlos a terceros
+            id: abap-ficheros
+            subtitle: Juan Carlos Nuevo Caraballo
+            description: >-
+              Como llevar datos de sap (ALV standard o no, Querys, etc) a
+              ficheros (grandes volúmenes) y grabarlo en un fichero para poder
+              enviarlo o exponerlo a otras aplicaciones. Tambien incluyen una
+              aplicación UI5 donde se puede configurar y exponer por usuario,
+              para su extracción, cuando lo necesite, y recibirlo en un excel
+              anexado a su correo.
+            speakers:
+              - juan-carlos-nuevo
   - type: text
     title: "\U0001F5E3️ Propón una charla para el SIT Madrid /  Do you want to speak at the SIT Madrid?"
     id: speakers-wanted
