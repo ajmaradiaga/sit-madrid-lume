@@ -463,15 +463,18 @@ blocks:
       - alt: Expertux
         img: /files/logos/expertux.png
         url: 'https://xpertux.es/'
+      - alt: Sulzer
+        img: /files/logos/Sulzer-Logo.png
+        url: 'https://www.sulzer.de/es/'
       - alt: SAP
         img: /files/logos/sap-logo-small.png
         url: 'https://sap.com'
       - alt: SAP Press
         img: /files/logos/SAP_PRESS_with_box.jpg
         url: 'https://www.sap-press.com/'
-      - alt: Sulzer
-        img: /files/logos/Sulzer-Logo.png
-        url: 'https://www.sulzer.de/es/'
+      - alt: Convista
+        img: /files/logos/convista.png
+        url: 'https://convista.es/'
       - alt: Espresso Tutorials
         img: /files/logos/espresso-tutorials.png
         url: 'https://www.espresso-tutorials.com/'
