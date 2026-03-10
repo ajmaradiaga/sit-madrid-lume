@@ -182,7 +182,8 @@ blocks:
               curiosidad por Build Apps, si estás evaluando SAP Build para tu
               empresa, o si simplemente quieres ver qué implica realmente
               conectar el mundo on-premise con BTP sin que nadie te venda humo.
-            speakers: []
+            speakers:
+              - gerard-lagalina
           - time: '12:30'
             title: Disaster Recovery in SAP Integration
             subtitle: Evgenii Shirokikh & Aleksandr Ivanov
@@ -228,7 +229,8 @@ blocks:
               criterios de Clean Core y el uso de RAP. La charla está pensada
               para personas de carácter técnico con una visión completa del
               diseño de aplicaciones tanto en Fiori como en ABAP o RAP. 
-            speakers: []
+            speakers:
+              - jose-carlos-alfonso
           - time: '14:30'
             title: Llevar datos a ficheros y exponerlos a terceros
             id: abap-ficheros
@@ -261,9 +263,21 @@ blocks:
     title: Ponentes
     theme: is-light width-box box-fill
     speakers:
+      - name: Aleksandr Ivanov
+        id: aleksandr-ivanov
+        company: EPAM Systems
+        role: Head of Integration Discipline | Solutions Architect
+        bio: |-
+          - Solution Architect
+          - Head of Integration Discipline in EPAM
+          - Focused on Digital Transformatons in Retail & CPG
+        image: /files/people/aleksandr-ivanov.jpeg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/aleksandr-ivanov-architecture/'
       - name: Antonio Maradiaga
         id: ajmaradiaga
-        company: SAP
+        company: SAP España
         role: Developer Advocate
         bio: >-
           As a Developer Advocate, Antonio looks after integration topics, e.g.
@@ -281,6 +295,157 @@ blocks:
             url: 'https://github.com/ajmaradiaga'
           - icon: house
             url: 'https://ajmaradiaga.com'
+      - name: 'Antonio Valladares Fernández '
+        id: antonio-valladares
+        company: Code-10 IT
+        role: CEO and Technological partner
+        bio: >-
+          SAP PI (Process Integration) SAP PO (Process Orchestration) consultant
+          with master degree in Computer Engineering, strong JAVA background
+          with extensive knowledge of the various SAP modules and programming
+          capability of ABAP4. Experienced in IT procedures, project
+          live-cycles, test methodology apply to project phases (UT, SIT, UAT
+          and Hypercare phases). Exposure to Waterfall and AGILE methodologies.
+          Good communication skills and geographic availability.
+        image: /files/people/antonio-valladares.jpg
+        links:
+          - icon: users-four
+            url: 'https://profile.sap.com/u/Antonio_C10IT'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/antonio-valladares/'
+      - name: Edgar Jiménez
+        id: edgar-jimenez
+        role: Socio @ Brait
+        image: /files/people/edgar-jimenez.jpeg
+        links:
+          - icon: users-four
+            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/604179'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/edgarjimenezb/'
+      - name: Evgenii Shirokikh
+        id: evgenii-shirokikh
+        company: EPAM Systems
+        role: Solution Architect - Integration
+        bio: 'Solution Architect, grown from integration developer.'
+        image: /files/people/evgenii-shirokikh.jpeg
+        links:
+          - icon: users-four
+            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/1594863'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/evgenii-sh/'
+      - name: Gerard Lagalina Pacheco
+        id: gerard-lagalina
+        company: Minari Tech
+        role: CPO at Minari Tech
+        bio: >-
+          SAP Technical Architect | Senior ABAP Developer | ABAP Cloud, RAP &
+          BTP | CPO at Minari Tech | Entusiasta de la tecnología SAP
+        image: /files/people/gerard-lagalina.jpeg
+        links:
+          - icon: users-four
+            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/172124'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/gerard-lagalina-pacheco-040b5535/'
+      - name: Jose Carlos Alfonso
+        id: jose-carlos-alfonso
+        company: Convista
+        role: Solutions Architect at Convista Consulting Spain
+        image: /files/people/jose-carlos-alfonso.jpeg
+        links:
+          - icon: users-four
+            url: 'https://profile.sap.com/u/Jalfonso'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/josecarlosalfonso'
+      - name: Juan Carlos Nuevo Caraballo
+        id: juan-carlos-nuevo
+        company: Freelance
+        role: SAP Developer FullStack
+        bio: >-
+          SAP técnico-funcional (ABAP, UI5, HANA, FIORI, ODATA, ODP, PERSONAS,
+          IONIC, BOT, jco, arduino).
+
+          EDI, Integracion SAP - Service Now. Transformación gran cuenta a S/4.
+        image: /files/people/juan-carlos-nuevo.jpeg
+        links:
+          - icon: linkedin-logo
+            url: 'https://es.linkedin.com/in/juan-carlos-nuevo-91b0104'
+      - name: Mario de Felipe
+        id: mario-de-felipe
+        company: apiphani
+        role: VP SAP Data and AI
+        bio: >-
+          With over 16 years of experience in SAP and 4 years of experience in
+          AWS, I am a certified SAP on AWS consultant and architect, and a
+          recognized expert in this domain.
+
+
+          Currently, all my efforts are focused on developing tools and
+          connectors, and on MCP servers for SAP data curation using AI
+          technology, predominantly on AWS.
+        image: /files/people/mario-de-felipe.jpeg
+        links:
+          - icon: users-four
+            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/2249658'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/mario-de-felipe-103a762b/'
+      - name: Philipp Nell
+        id: philipp-nell
+        company: Sulzer
+        role: 'Solution Architect for Data and AI, Technology Scout '
+        bio: >-
+          As a  SAP BI Senior Professional I have a proven track record of
+          delivering complex SAP BI projects and solutions.  Over the past 25
+          years I have worked with multiple clients in cross cultural teams in
+          industries such as Automotive, Retail, Insurance, Oil and Gas and
+          FMCG.
+
+
+          In my many years working with SAP Business Intelligence I have assumed
+          many senior roles including Team Lead and Solution Architect and have
+          provided mission critical support to customers with complex issues on
+          many occasions.
+
+
+          Technically, I think to have a very broad and complex set of Business
+          Intelligence skills having started with SAP BW in 1999.  I have strong
+          Data Warehousing, Modelling, Transformation and Integration expertise.
+          My keen interest and knowledge of SAP HANA has enabled me to realize
+          new methods for the management of corporate BI infrastructures. Now my
+          main interest is in data management and cross tech border analytics.
+        image: /files/people/phil.jpg
+        links:
+          - icon: users-four
+            url: 'https://community.sap.com/t5/user/viewprofilepage/user-id/1886'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/philnell/'
+      - name: Vadim Klimov
+        id: vadim-klimov
+        company: Astra Zeneca
+        role: >-
+          SAP BTP and Integration Architect | Cloud Technologist | Technical
+          Lead
+        bio: >-
+          An independent consultant, seasoned architect, and technical lead
+          specializing in integration and cloud technologies, primarily within
+          the SAP ecosystem.
+
+
+          An accomplished integration architect and integration lead bringing
+          experience in setting up hybrid and cloud-first integration platforms
+          and capabilities allowing the adoption of API-led and event-driven
+          architectures as an integral part of digital transformation programs.
+          Proven expertise in SAP integration products and technologies,
+          knowledge of key SAP best practices, methodologies and SAP know-how,
+          extensive experience in design and development of complex integration
+          scenarios. Hands-on experience with other integration products
+          including MuleSoft Anypoint Platform, Microsoft Azure and AWS
+          integration services, Solace PubSub+ Platform.
+        image: /files/people/vadim-klimov.jpeg
+        links:
+          - icon: users-four
+            url: 'https://profile.sap.com/u/vadimklimov'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/vadim-klimov'
   - type: separator
     width: is-default
   - type: logos
