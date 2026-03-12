@@ -478,6 +478,9 @@ blocks:
       - alt: Espresso Tutorials
         img: /files/logos/espresso-tutorials.png
         url: 'https://www.espresso-tutorials.com/'
+      - alt: Brait
+        img: /files/logos/brait-logo.jpg
+        url: 'https://www.brait.cc/'        
   - type: text
     title: ¿Interesado en patrocinar el evento?
     id: speakers-wanted
