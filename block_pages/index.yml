@@ -479,7 +479,7 @@ blocks:
         img: /files/logos/espresso-tutorials.png
         url: 'https://www.espresso-tutorials.com/'
       - alt: Brait
-        img: /files/logos/brait-logo.jpg
+        img: /files/logos/brait-logo.png
         url: 'https://www.brait.cc/'        
   - type: text
     title: ¿Interesado en patrocinar el evento?
