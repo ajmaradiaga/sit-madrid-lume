@@ -420,7 +420,6 @@ blocks:
             url: 'https://www.linkedin.com/in/philnell/'
       - name: Vadim Klimov
         id: vadim-klimov
-        company: Astra Zeneca
         role: >-
           SAP BTP and Integration Architect | Cloud Technologist | Technical
           Lead
@@ -480,7 +479,7 @@ blocks:
         url: 'https://www.espresso-tutorials.com/'
       - alt: Brait
         img: /files/logos/brait-logo.png
-        url: 'https://www.brait.cc/'        
+        url: 'https://www.brait.cc/'
   - type: text
     title: ¿Interesado en patrocinar el evento?
     id: speakers-wanted
