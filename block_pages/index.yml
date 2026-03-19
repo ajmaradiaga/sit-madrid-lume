@@ -64,9 +64,9 @@ blocks:
       - title: Pre-SIT (16 de abril 2026)
         events:
           - time: '09:30 - 11:30'
-            title: "SAP CodeJam - \U0001F1EA\U0001F1F8 Joule Studio: Create Joule Skills and Agents Without Coding (Madrid, Spain)"
+            title: "SAP CodeJam - \U0001F1EA\U0001F1F8 Build code-based AI Agents on SAP Business Technology Platform (Madrid, Spain)"
             subtitle: "¡Bienvenid@s al SAP CodeJam! \U0001F44B"
-            description: "\U0001F449 [Registrarse aqui](https://community.sap.com/t5/sap-codejam/joule-studio-create-joule-skills-and-agents-without-coding-madrid-spain/ec-p/14344415#M1113) \U0001F448\n\n\nEste CodeJam se enfoca en Joule Studio, la nueva herramienta en SAP Build, que te permite crear extensiones para Joule, ya sea Joule Skills o Agentes."
+            description: "\U0001F449 [Registrarse aqui](https://community.sap.com/t5/sap-codejam/build-code-based-ai-agents-on-sap-business-technology-platform-madrid-spain/ev-p/14344415) \U0001F448\n\n\nEste CodeJam se enfoca en como construir agentes de IA con codigo. Como parte del evento utilizaremos Python, CrewAI, LiteLLM y SAP AI Core."
             speakers:
               - ajmaradiaga
           - time: '11:30 - 12:00'
@@ -540,7 +540,7 @@ blocks:
           for the events:
 
           - SAP CodeJam:
-          [Link](https://community.sap.com/t5/sap-codejam/joule-studio-create-joule-skills-and-agents-without-coding-madrid-spain/ec-p/14344415#M1113)
+          [Link](https://community.sap.com/t5/sap-codejam/build-code-based-ai-agents-on-sap-business-technology-platform-madrid-spain/ev-p/14344415)
 
           - SAP Inside Track:
           [Link](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-apr-17-2026/ev-p/14316541)
