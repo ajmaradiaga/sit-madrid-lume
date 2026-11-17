@@ -1,1 +1,67 @@
-:root{--color-primary:#d11e02;--color-secondary:#fff;--color-dark:#333;--color-light:#f8f9fa;--color-accent:#ffb84d;--font-family-display:system-ui,sans-serif;--font-family-ui:system-ui,sans-serif;--font-weight-bold:600}
+/* ===========================================================================
+   SIT Madrid theme overrides
+   Palette: red / white / black (Madrid). Fonts: Space Grotesk + Inter.
+   This file is unlayered, so it wins over the TOP theme's @layer defaults.
+   =========================================================================== */
+
+:root {
+  /* Colors ---------------------------------------------------------------- */
+  --color-primary: #d11e02;   /* Madrid red */
+  --color-secondary: #ffffff; /* white band */
+  --color-dark: #0a0a0a;      /* near-black (was #333) */
+  --color-light: #faf7f5;     /* warm off-white so the red pops */
+  --color-accent: #ffb84d;
+
+  /* Fonts ----------------------------------------------------------------- */
+  --font-family-display: "Space Grotesk", system-ui, sans-serif;
+  --font-family-ui: "Inter", system-ui, -apple-system, sans-serif;
+  --font-weight-bold: 700;
+
+  /* Bigger, more confident type scale. Keep the theme's responsive
+     step-down so headings don't blow out on mobile. */
+  --font-scale: 1.25;
+
+  /* Rhythm: more air between sections */
+  --row-gap: 5rem;
+  --row-padding: 3rem;
+}
+
+@media (width < 1200px) { :root { --font-scale: 1.2; } }
+@media (width < 800px)  { :root { --font-scale: 1.15; } }
+
+/* Hero (type-driven, red band) ----------------------------------------- */
+.block-hero {
+  min-height: min(88vh, 900px);
+}
+.block-hero-header h1 {
+  font-size: var(--font-8-size);
+  text-wrap: balance;
+  margin-bottom: 0.4em;
+}
+.block-hero-header {
+  font-size: var(--font-3-size);
+}
+.block-hero-text {
+  margin-top: 1.5rem;
+}
+
+/* Buttons: subtle lift on hover ---------------------------------------- */
+.button,
+a.button {
+  transition: transform 0.12s ease, filter 0.12s ease;
+}
+.button:hover,
+a.button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+/* Section separators in Madrid red ------------------------------------- */
+hr {
+  border: none;
+  border-top: 3px solid var(--color-primary);
+  opacity: 0.9;
+}
+
+/* Keep code blocks scrollable ------------------------------------------ */
+pre code { overflow-x: auto; }

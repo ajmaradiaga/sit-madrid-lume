@@ -1,20 +1,23 @@
 title_suffix: SIT Madrid
+extra_head: |
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap">
 metas:
   title: =title
-  site: SIT Madrid 2026
+  site: SIT Madrid 2027
   lang: en
-  color: '#00ab7d'
+  color: '#d11e02'
   generator: true
   image: /files/img-home.png
 state: pre-event
 cta:
-  text: "Regístrate al evento \U0001F3AB"
-  url: >-
-    https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2026-apr-17-2026/ec-p/14316541
+  text: "Más info y registro \U0001F3AB"
+  url: 'https://community.sap.com/t5/madrid-events/gh-p/madrid'
 footer:
   logo: /files/logos/logo.png
   copyright: |
-    © 2026<br>
+    © 2027<br>
     Created with [Lume](https://lume.land) & TOP Theme<br>
     [humans.txt](/humans.txt)
   menu: []
