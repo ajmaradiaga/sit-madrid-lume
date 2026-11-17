@@ -18,11 +18,11 @@ blocks:
   - type: hero
     id: main-logo
     title: SAP Inside Track Madrid
-    intro: "**8 y 9 de abril 2027**\n\n\U0001F9ED NEORIS AI Hub, powered by EPAM · Madrid · #SITMAD"
+    intro: "8 y 9 de abril 2027\n\n\U0001F4CD NEORIS AI Hub, powered by EPAM · Madrid"
     text: "## [Más info y registro \U0001F3AB](https://community.sap.com/t5/madrid-events/gh-p/madrid)"
   - type: imagetext
     id: what-is-sit
-    theme: is-primary width-full box-fill
+    theme: is-dark width-full box-fill
     src: /files/photos/madrid-metropolis-arriba.jpg
     text: >-
       *Un SAP Inside Track (SIT) es un evento comunitario local donde los
@@ -89,7 +89,7 @@ blocks:
   - type: text
     title: "\U0001F5E3️ Propón una charla para el SIT Madrid /  Do you want to speak at the SIT Madrid?"
     id: speakers-wanted
-    theme: is-secondary width-full box-fill
+    theme: is-dark width-full box-fill
     columns: false
     text: >-
       ¡Gracias por interesarte en participar como ponente en el SIT Madrid!

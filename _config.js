@@ -5,6 +5,9 @@ const site = lume({ location: new URL("https://sitmadrid.com") });
 
 site.use(top());
 
+// Ship our own scroll-reveal module; base layout loads it as /script.js
+site.add("script.js");
+
 site.ignore("README.md", "CHANGELOG.md", "node_modules");
 
 export default site;
