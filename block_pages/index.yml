@@ -11,6 +11,9 @@ menu:
   - text: Preguntas frecuentes
     url: '#faq'
     highlight: false
+  - text: Ediciones anteriores
+    url: '#archive'
+    highlight: false
   - text: Contacto
     url: '#contact'
     highlight: false
@@ -23,7 +26,7 @@ blocks:
   - type: imagetext
     id: what-is-sit
     theme: is-dark width-full box-fill
-    src: /files/photos/madrid-metropolis-arriba.jpg
+    src: /files/photos/madrid-metropolis-atardecer.jpg
     text: >-
       *Un SAP Inside Track (SIT) es un evento comunitario local donde los
       miembros de la Comunidad SAP se reúnen para compartir conocimientos sobre
@@ -156,6 +159,20 @@ blocks:
       - name: Evgenii Shirokikh
         img: /files/people/evgenii-shirokikh.jpeg
         url: 'https://www.linkedin.com/in/evgenii-sh/'
+  - type: separator
+    width: is-default
+  - type: text
+    title: Ediciones anteriores
+    id: archive
+    theme: is-light width-box box-border
+    columns: false
+    text: >-
+      Las ediciones pasadas del SIT Madrid se conservan archivadas, tal y como
+      fueron — con su programa, ponentes y patrocinadores:
+
+
+      **[→ SIT Madrid 2026](/files/archive/2026/)**  ·  **[→ SIT Madrid
+      2025](/files/archive/2025/)**
   - type: separator
     width: is-full
   - type: faq
