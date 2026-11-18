@@ -1,4 +1,6 @@
 ---
+id: privacy
+lang: en
 title: Privacy
 subtitle: Duis tempus id ante eget pulvinar
 menu:

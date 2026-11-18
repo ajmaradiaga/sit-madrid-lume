@@ -1,3 +1,5 @@
+id: tickets
+lang: en
 url: /tickets/
 menu:
   - text: Home

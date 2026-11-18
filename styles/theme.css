@@ -292,6 +292,39 @@ summary:focus-visible {
   letter-spacing: 0.02em;
 }
 .navbar-menu a { font-family: var(--font-family-display); font-weight: 600; }
+/* Language switcher — compact EN / ES pills, pinned to the right end of the
+   menu bar so it stays inside the black bracket (not a separate grid column) */
+.navbar-menu .navbar-lang {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: auto;
+  padding: 0 1rem 0 0.75rem;
+}
+.navbar-menu .navbar-lang a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.25rem;
+  padding: 0.3rem 0.55rem;
+  border: 2px solid var(--color-dark);
+  border-radius: 999px;
+  font-family: var(--font-family-display);
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  color: var(--color-dark);
+  line-height: 1;
+}
+.navbar-menu .navbar-lang a:hover {
+  background: color-mix(in srgb, var(--color-dark), transparent 88%);
+}
+.navbar-menu .navbar-lang a.is-current {
+  background: var(--color-dark);
+  color: #fff;
+  pointer-events: none;
+}
 /* Black rule bracketing the menu (left + top + bottom, open toward the CTA)
    so it reads as a defined section and balances the black CTA on the right */
 .navbar-menu {

@@ -1,4 +1,6 @@
 ---
+id: legal-terms
+lang: en
 title: Legal terms
 subtitle: Duis tempus id ante eget pulvinar
 menu:

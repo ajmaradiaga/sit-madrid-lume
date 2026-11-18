@@ -1,9 +1,19 @@
 import lume from "lume/mod.ts";
 import top from "top/mod.ts";
+import multilanguage from "lume/plugins/multilanguage.ts";
 
 const site = lume({ location: new URL("https://sitmadrid.com") });
 
 site.use(top());
+
+// Multilanguage: English is the default (served at /), Spanish under /es/.
+// A page joins the English/Spanish pair by sharing the same `id`; the page's
+// own `lang` picks the language. Default-language pages keep their plain URL;
+// non-default pages are served under /<lang>/.
+site.use(multilanguage({
+  languages: ["en", "es"],
+  defaultLanguage: "en",
+}));
 
 // Ship our own scroll-reveal module; base layout loads it as /script.js
 site.add("script.js");

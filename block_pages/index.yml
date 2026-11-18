@@ -1,39 +1,38 @@
+id: home
+lang: en
+# NOTE: English is the default language (served at /). The content below is
+# still the original Spanish — translate it to English in place. The Spanish
+# copy lives in index.es.yml (served at /es/) and shares id: home.
 menu:
-  - text: ¿Cómo llegar?
+  - text: Location
     url: '#location'
     highlight: false
-  - text: Programa
+  - text: Calendar
     url: '#calendar'
     highlight: true
-  - text: Ponentes
+  - text: Speakers
     url: '#speakers-wanted'
     highlight: false
-  - text: Preguntas frecuentes
-    url: '#faq'
-    highlight: false
-  - text: Contacto
-    url: '#contact'
-    highlight: false
+  # - text: Preguntas frecuentes
+  #   url: '#faq'
+  #   highlight: false
+  # - text: Contacto
+  #   url: '#contact'
+  #   highlight: false
 blocks:
   - type: hero
     id: main-logo
     title: SAP Inside Track Madrid
-    intro: "8 y 9 de abril 2027\n\n\U0001F4CD NEORIS AI Hub, powered by EPAM · Madrid"
-    text: "## [Más info y registro \U0001F3AB](https://community.sap.com/t5/madrid-events/gh-p/madrid)"
+    intro: "8 and 9 of April 2027\n\n\U0001F3E2 NEORIS AI Hub, powered by EPAM · Madrid 🇪🇸"
+    text: "## [More info and RSVP \U0001F3AB](https://community.sap.com/t5/madrid-events/gh-p/madrid)"
   - type: imagetext
     id: what-is-sit
     theme: is-dark width-full box-fill
     src: /files/photos/madrid-metropolis-atardecer.jpg
     text: >-
-      *Un SAP Inside Track (SIT) es un evento comunitario local donde los
-      miembros de la Comunidad SAP se reúnen para compartir conocimientos sobre
-      temas relacionados con SAP. El evento es impulsado/organizado por la
-      comunidad, todos los interesados pueden participar. Todos pueden
-      beneficiarse o contribuir: actuar como presentador, participar en
-      discusiones, intercambiar información, hacer networking o disfrutar de las
-      reuniones sociales por la noche.*
+      *An SAP Inside Track (SIT) is a local grassroots community event where SAP Community members come together to share knowledge about SAP related topics. The event is driven/organized by the community, everyone who is interested may participate. Everyone can benefit or contribute: act as presenter, take part in discussions, exchange information, realize networking or enjoy the social get-togethers in the evening.*
   - type: location
-    title: ¿Cómo llegar?
+    title: How to get there?
     id: location
     theme: is-light width-box box-fill
     embed: >-
@@ -41,18 +40,17 @@ blocks:
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.103962272104!2d-3.6676984222642637!3d40.495084071427016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229559aabda55%3A0x418763045875e97c!2sNEORIS!5e0!3m2!1sen!2ses!4v1769510476743!5m2!1sen!2ses"
       width="600" height="450" style="border:0;" allowfullscreen=""
       loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    caption: Ubicacion de EPAM Neoris AI Hub
+    caption: Location of EPAM Neoris AI Hub
     directions:
       - title: EPAM Neoris AI Hub
-        description: 'C. de María de Portugal, 1, Hortaleza, 28050 Madrid'
+        description: 'C. de María de Portugal, 1, Hortaleza, 28050 Madrid, Spain'
         icon: map-pin-area
       - title: Buses
         description: >-
-          - [Maria de Portugal-Fco. Pi Y Margall - Stop ID: 3780 - Linea
+          - [Maria de Portugal-Fco. Pi Y Margall - Stop ID: 3780 - Line
           155B](https://maps.app.goo.gl/3uVF5dJh1cRWmsoB8)
 
-          - [Av.Burgos-Fco.Pi Y Margall - Stop ID:
-          3261](https://maps.app.goo.gl/m8jJjYT1zTHo8ALA8)
+          - [Av.Burgos-Fco.Pi Y Margall - Stop ID: 3261](https://maps.app.goo.gl/m8jJjYT1zTHo8ALA8)
         icon: bus
   - type: separator
     width: is-default
@@ -61,24 +59,24 @@ blocks:
     id: calendar
     theme: is-light width-box box-border
     days:
-      - title: Pre-SIT · SAP CodeJam (8 de abril 2027)
+      - title: Pre-SIT · SAP CodeJam (8 April 2027)
         events:
-          - time: Por anunciar
+          - time: To be announced
             title: "SAP CodeJam \U0001F9D1‍\U0001F4BB"
-            subtitle: Tema y horario por anunciar
-            description: "El SAP CodeJam que acompaña al SIT Madrid se anunciará próximamente. \U0001F449 [Eventos de SAP CodeJam](https://community.sap.com/t5/sap-codejam/eb-p/codejam-events)"
+            subtitle: Topic and schedule to be announced
+            description: "The SAP CodeJam accompanying SIT Madrid will be announced soon. \U0001F449 [SAP CodeJam Events](https://community.sap.com/t5/sap-codejam/eb-p/codejam-events)"
             speakers: []
-      - title: SIT Madrid (9 de abril 2027)
+      - title: SIT Madrid (9 April 2027)
         events:
           - time: '09:00'
-            title: "Registro \U0001F4DD y bienvenida al SIT Madrid! \U0001F44B"
+            title: "Registration \U0001F4DD and welcome to SIT Madrid! \U0001F44B"
             speakers: []
           - time: '09:30'
-            title: "\U0001F4E2 Programa por anunciar"
-            subtitle: Las sesiones se publicarán próximamente
+            title: "\U0001F4E2 Program to be announced"
+            subtitle: Sessions will be published soon
             description: >-
-              ¿Quieres presentar una charla? [Propón tu
-              sesión aquí](https://forms.gle/vnw6AjsY5sPo63mf7).
+              Do you want to present a talk? [Propose your
+              session here](https://forms.gle/vnw6AjsY5sPo63mf7).
             speakers: []
           - time: '11:00'
             title: "Break # 1 \U0001F950 ☕️"
@@ -87,17 +85,11 @@ blocks:
             title: "Break #2 \U0001F32D\U0001F964"
             speakers: []
   - type: text
-    title: "\U0001F5E3️ Propón una charla para el SIT Madrid /  Do you want to speak at the SIT Madrid?"
+    title: "\U0001F5E3️ Do you want to speak at the SIT Madrid?"
     id: speakers-wanted
     theme: is-dark width-full box-fill
     columns: false
     text: >-
-      ¡Gracias por interesarte en participar como ponente en el SIT Madrid!
-      Vuestra colaboración nos permite ofrecer a los asistentes la mayor
-      variedad en el programa.  **[Proponer la charla
-      aqui](https://forms.gle/vnw6AjsY5sPo63mf7)**.
-
-
       Thank you for your interest in speaking at the SIT Madrid! Your
       contribution allows us to offer attendees the greatest variety in the
       program. **[Propose a talk here](https://forms.gle/vnw6AjsY5sPo63mf7)**.
@@ -107,9 +99,9 @@ blocks:
   # (Code10, Expertux, Sulzer, Convista, Espresso Tutorials, Brait) and their
   # logos remain in the repo and in _index-2026.yml.bkp — re-add when confirmed.
   - type: logos
-    title: Patrocinadores
+    title: Sponsors
     id: sponsors
-    description: Este evento no seria posible sin el apoyo de nuestros patrocinadores...
+    description: This event would not be possible without the support of our great sponsors!
     size: medium
     items:
       - alt: EPAM Neoris
@@ -122,20 +114,18 @@ blocks:
         img: /files/logos/SAP_PRESS_with_box.jpg
         url: 'https://www.sap-press.com/'
   - type: text
-    title: ¿Interesado en patrocinar el evento?
+    title: Interested in sponsoring SIT Madrid?
     id: speakers-wanted
     theme: is-light width-box box-border
     columns: false
     text: >-
-      Si te interesa patrocinar el evento, por favor contactar con [Antonio
-      Maradiaga](mailto:ajmaradiaga@gmail.com).
+      If you are interested in sponsoring the event, please see the details [here](https://sitmadrid.com).
   - type: separator
     width: is-default
   - type: people
-    title: Organizadores
+    title: Organizers
     description: >-
-      Este evento es posible gracias a la colaboracion de varios miembros de SAP
-      Community.
+      This event is made possible thanks to the collaboration of several members of the SAP Community.
     items:
       - name: Antonio de Ancos Cid
         img: /files/people/antonio-ancos.jpg
@@ -159,13 +149,12 @@ blocks:
   - type: separator
     width: is-default
   - type: text
-    title: Ediciones anteriores
+    title: Previous editions
     id: archive
     theme: is-light width-box box-border
     columns: false
     text: >-
-      Las ediciones pasadas del SIT Madrid se conservan archivadas, tal y como
-      fueron — con su programa, ponentes y patrocinadores:
+      The past editions of SIT Madrid are archived as they were — with their program, speakers, and sponsors:
 
 
       **[→ SIT Madrid 2026](/files/archive/2026/)**  ·  **[→ SIT Madrid
@@ -173,23 +162,21 @@ blocks:
   - type: separator
     width: is-full
   - type: faq
-    title: Preguntas frecuentes
+    title: Frequently Asked Questions
     id: faq
     theme: is-light width-box box-fill
     questions:
-      - question: ¿Cuando y donde sera el SIT Madrid?
+      - question: When and where will SIT Madrid take place?
         answer: >-
-          El SAP Inside Track sera el 9 de abril 2027 en el EPAM Neoris AI Hub.
-          La direccion completa esta [aqui](#location).
-      - question: ¿Puedo asistir solamente al CodeJam o a ambos eventos?
+          SAP Inside Track will be held on April 9, 2027 at the EPAM Neoris AI Hub.
+          The full address is [here](#location).
+      - question: Can I attend only the CodeJam or both events?
         answer: >-
-          El SAP CodeJam y el SAP Inside Track son eventos separados y se puede
-          asistir solo a uno.
-      - question: 'Me interesa patrocinar el evento, ¿con quien debo contactar?'
+          The SAP CodeJam and the SAP Inside Track are separate events and you can attend just one event if you wish so.
+      - question: 'I am interested in sponsoring the event, who should I get in touch with?'
         answer: >-
-          Antes que nada, gracias por el interes en patrocinar el evento. Por
-          favor contactar con [Antonio Maradiaga](mailto:ajmaradiaga@gmail.com).
-      - question: ¿Donde me puedo registrar para los eventos?
+          First of all, thanks for your interest in sponsoring the event. Please find more details [here](https://sitmadrid.com).
+      - question: Where can I register (RSVP) for the events?
         answer: >-
           This website is purely informational. The registration links will be
           published here once they are open. In the meantime, follow the SAP
@@ -201,12 +188,12 @@ blocks:
           - SAP CodeJam:
           [Link](https://community.sap.com/t5/sap-codejam/eb-p/codejam-events)
   - type: contact
-    title: Contacto
+    title: Contact
     id: contact
     theme: is-light width-box box-fill
     items:
       - title: Antonio Maradiaga
-        info: Parte del equipo organizador
+        info: Part of the organizing team
         links:
           - url: 'mailto:ajmaradiaga@gmail.com'
             icon: envelope

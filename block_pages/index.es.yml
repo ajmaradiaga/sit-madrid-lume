@@ -1,0 +1,219 @@
+id: home
+lang: es
+menu:
+  - text: ¿Cómo llegar?
+    url: '#location'
+    highlight: false
+  - text: Programa
+    url: '#calendar'
+    highlight: true
+  - text: Ponentes
+    url: '#speakers-wanted'
+    highlight: false
+  # - text: Preguntas frecuentes
+  #   url: '#faq'
+  #   highlight: false
+  # - text: Contacto
+  #   url: '#contact'
+  #   highlight: false
+blocks:
+  - type: hero
+    id: main-logo
+    title: SAP Inside Track Madrid
+    intro: "8 y 9 de abril 2027\n\n\U0001F3E2 NEORIS AI Hub, powered by EPAM · Madrid 🇪🇸"
+    text: "## [Más info y registro \U0001F3AB](https://community.sap.com/t5/madrid-events/gh-p/madrid)"
+  - type: imagetext
+    id: what-is-sit
+    theme: is-dark width-full box-fill
+    src: /files/photos/madrid-metropolis-atardecer.jpg
+    text: >-
+      *Un SAP Inside Track (SIT) es un evento comunitario local donde los
+      miembros de la Comunidad SAP se reúnen para compartir conocimientos sobre
+      temas relacionados con SAP. El evento es impulsado/organizado por la
+      comunidad, todos los interesados pueden participar. Todos pueden
+      beneficiarse o contribuir: actuar como presentador, participar en
+      discusiones, intercambiar información, hacer networking o disfrutar de las
+      reuniones sociales por la noche.*
+  - type: location
+    title: ¿Cómo llegar?
+    id: location
+    theme: is-light width-box box-fill
+    embed: >-
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.103962272104!2d-3.6676984222642637!3d40.495084071427016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229559aabda55%3A0x418763045875e97c!2sNEORIS!5e0!3m2!1sen!2ses!4v1769510476743!5m2!1sen!2ses"
+      width="600" height="450" style="border:0;" allowfullscreen=""
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    caption: Ubicacion de EPAM Neoris AI Hub
+    directions:
+      - title: EPAM Neoris AI Hub
+        description: 'C. de María de Portugal, 1, Hortaleza, 28050 Madrid'
+        icon: map-pin-area
+      - title: Buses
+        description: >-
+          - [Maria de Portugal-Fco. Pi Y Margall - Stop ID: 3780 - Linea
+          155B](https://maps.app.goo.gl/3uVF5dJh1cRWmsoB8)
+
+          - [Av.Burgos-Fco.Pi Y Margall - Stop ID:
+          3261](https://maps.app.goo.gl/m8jJjYT1zTHo8ALA8)
+        icon: bus
+  - type: separator
+    width: is-default
+  - type: calendar
+    title: Programa
+    id: calendar
+    theme: is-light width-box box-border
+    days:
+      - title: Pre-SIT · SAP CodeJam (8 de abril 2027)
+        events:
+          - time: Por anunciar
+            title: "SAP CodeJam \U0001F9D1‍\U0001F4BB"
+            subtitle: Tema y horario por anunciar
+            description: "El SAP CodeJam que acompaña al SIT Madrid se anunciará próximamente. \U0001F449 [Eventos de SAP CodeJam](https://community.sap.com/t5/sap-codejam/eb-p/codejam-events)"
+            speakers: []
+      - title: SIT Madrid (9 de abril 2027)
+        events:
+          - time: '09:00'
+            title: "Registro \U0001F4DD y bienvenida al SIT Madrid! \U0001F44B"
+            speakers: []
+          - time: '09:30'
+            title: "\U0001F4E2 Programa por anunciar"
+            subtitle: Las sesiones se publicarán próximamente
+            description: >-
+              ¿Quieres presentar una charla? [Propón tu
+              sesión aquí](https://forms.gle/vnw6AjsY5sPo63mf7).
+            speakers: []
+          - time: '11:00'
+            title: "Break # 1 \U0001F950 ☕️"
+            speakers: []
+          - time: '13:00'
+            title: "Break #2 \U0001F32D\U0001F964"
+            speakers: []
+  - type: text
+    title: "\U0001F5E3️ Propón una charla para el SIT Madrid /  Do you want to speak at the SIT Madrid?"
+    id: speakers-wanted
+    theme: is-dark width-full box-fill
+    columns: false
+    text: >-
+      ¡Gracias por interesarte en participar como ponente en el SIT Madrid!
+      Vuestra colaboración nos permite ofrecer a los asistentes la mayor
+      variedad en el programa.  **[Proponer la charla
+      aqui](https://forms.gle/vnw6AjsY5sPo63mf7)**.
+
+
+      Thank you for your interest in speaking at the SIT Madrid! Your
+      contribution allows us to offer attendees the greatest variety in the
+      program. **[Propose a talk here](https://forms.gle/vnw6AjsY5sPo63mf7)**.
+  - type: separator
+    width: is-default
+  # Sponsors: 2027 confirmed = EPAM, SAP, SAP Press. The 2026 sponsors
+  # (Code10, Expertux, Sulzer, Convista, Espresso Tutorials, Brait) and their
+  # logos remain in the repo and in _index-2026.yml.bkp — re-add when confirmed.
+  - type: logos
+    title: Patrocinadores
+    id: sponsors
+    description: Este evento no seria posible sin el apoyo de nuestros patrocinadores...
+    size: medium
+    items:
+      - alt: EPAM Neoris
+        img: /files/logos/epam-neoris.png
+        url: 'https://epamneoris.com/'
+      - alt: SAP
+        img: /files/logos/sap-logo-small.png
+        url: 'https://sap.com'
+      - alt: SAP Press
+        img: /files/logos/SAP_PRESS_with_box.jpg
+        url: 'https://www.sap-press.com/'
+  - type: text
+    title: ¿Interesado en patrocinar el evento?
+    id: speakers-wanted
+    theme: is-light width-box box-border
+    columns: false
+    text: >-
+      Si te interesa patrocinar el evento, por favor ver los detalles [aqui](https://sitmadrid.com).
+  - type: separator
+    width: is-default
+  - type: people
+    title: Organizadores
+    description: >-
+      Este evento es posible gracias a la colaboracion de varios miembros de SAP
+      Community.
+    items:
+      - name: Antonio de Ancos Cid
+        img: /files/people/antonio-ancos.jpg
+        url: 'https://www.linkedin.com/in/aancos/'
+        description: '@aancos'
+      - name: Antonio Maradiaga
+        img: /files/people/antonio-maradiaga.jpg
+        url: 'https://www.linkedin.com/in/ajmaradiaga/'
+        description: '@ajmaradiaga'
+      - name: Bernhard Luecke
+        img: /files/people/bernhard.jpg
+        url: 'https://www.linkedin.com/in/bernhardluecke/'
+        description: '@Bernhard'
+      - name: Philipp Nell
+        img: /files/people/phil.jpg
+        url: 'https://www.linkedin.com/in/philnell/'
+        description: '@Phil_from_Madrid'
+      - name: Evgenii Shirokikh
+        img: /files/people/evgenii-shirokikh.jpeg
+        url: 'https://www.linkedin.com/in/evgenii-sh/'
+  - type: separator
+    width: is-default
+  - type: text
+    title: Ediciones anteriores
+    id: archive
+    theme: is-light width-box box-border
+    columns: false
+    text: >-
+      Las ediciones pasadas del SIT Madrid se conservan archivadas, tal y como
+      fueron — con su programa, ponentes y patrocinadores:
+
+
+      **[→ SIT Madrid 2026](/files/archive/2026/)**  ·  **[→ SIT Madrid
+      2025](/files/archive/2025/)**
+  - type: separator
+    width: is-full
+  - type: faq
+    title: Preguntas frecuentes
+    id: faq
+    theme: is-light width-box box-fill
+    questions:
+      - question: ¿Cuando y donde sera el SIT Madrid?
+        answer: >-
+          El SAP Inside Track sera el 9 de abril 2027 en el EPAM Neoris AI Hub.
+          La direccion completa esta [aqui](#location).
+      - question: ¿Puedo asistir solamente al CodeJam o a ambos eventos?
+        answer: >-
+          El SAP CodeJam y el SAP Inside Track son eventos separados y se puede
+          asistir solo a uno.
+      - question: 'Me interesa patrocinar el evento, ¿con quien debo contactar?'
+        answer: >-
+          Antes que nada, gracias por el interes en patrocinar el evento. Por
+          favor contactar con [Antonio Maradiaga](mailto:ajmaradiaga@gmail.com).
+      - question: ¿Donde me puedo registrar para los eventos?
+        answer: >-
+          This website is purely informational. The registration links will be
+          published here once they are open. In the meantime, follow the SAP
+          Community Madrid events group:
+
+          - SAP Inside Track Madrid:
+          [Link](https://community.sap.com/t5/madrid-events/gh-p/madrid)
+
+          - SAP CodeJam:
+          [Link](https://community.sap.com/t5/sap-codejam/eb-p/codejam-events)
+  - type: contact
+    title: Contacto
+    id: contact
+    theme: is-light width-box box-fill
+    items:
+      - title: Antonio Maradiaga
+        info: Parte del equipo organizador
+        links:
+          - url: 'mailto:ajmaradiaga@gmail.com'
+            icon: envelope
+            text: ajmaradiaga at gmail . com
+metas:
+  image: ''
+  title: SAP Inside Track Madrid 2027
+url: /es/
+title: SIT Madrid 2027

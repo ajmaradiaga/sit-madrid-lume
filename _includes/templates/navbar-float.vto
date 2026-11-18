@@ -1,0 +1,36 @@
+<nav class="navbar-float theme {{ menu_theme ?? 'is-primary' }}" id="menu">
+  <button class="navbar-menu-toggle" id="menu-button">
+    {{ "list" |> icon }}
+    Menú
+  </button>
+  <ul class="navbar-menu">
+    {{ for item of menu }}
+      <li>
+        <a
+          href="{{ item.url}}"
+          {{ item.highlight ? 'class="is-highlight"' : "" }}
+        >
+          {{ item.text }}
+        </a>
+      </li>
+    {{ /for }}
+    {{ if alternates && alternates.length > 1 }}
+      <li class="navbar-lang" aria-label="Language">
+        {{ for alt of alternates }}
+          <a
+            href="{{ alt.url }}"
+            lang="{{ alt.lang }}"
+            {{ alt.lang === lang ? 'class="is-current" aria-current="true"' : "" }}
+          >
+            {{ alt.lang.toUpperCase() }}
+          </a>
+        {{ /for }}
+      </li>
+    {{ /if }}
+  </ul>
+
+  <a href="{{ cta.url }}" class="navbar-cta">
+    {{ cta.text }}
+    {{ "arrow-right" |> icon }}
+  </a>
+</nav>

@@ -1,4 +1,6 @@
 ---
+id: code-of-conduct
+lang: en
 title: Code of conduct
 subtitle: Duis tempus id ante eget pulvinar
 menu:

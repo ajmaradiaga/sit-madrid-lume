@@ -13,7 +13,7 @@ metas:
   image: /files/img-home.png
 state: pre-event
 cta:
-  text: "Más info y registro \U0001F3AB"
+  text: "More info and RSVP \U0001F3AB"
   url: 'https://community.sap.com/t5/madrid-events/gh-p/madrid'
 footer:
   logo: /files/logos/logo.png
@@ -26,3 +26,17 @@ footer:
       href: /files/archive/2026/
     - text: SIT Madrid 2025
       href: /files/archive/2025/
+
+# Spanish overrides. The multilanguage plugin deep-merges this block into every
+# page with `lang: es`. Values above are the English default; list here ONLY the
+# keys whose Spanish differs — everything else falls through to the defaults.
+es:
+  metas:
+    lang: es
+  cta:
+    text: "Más info y registro \U0001F3AB"
+  footer:
+    copyright: |
+      © 2027<br>
+      Hecho con [Lume](https://lume.land) y el tema TOP<br>
+      [humans.txt](/humans.txt)
