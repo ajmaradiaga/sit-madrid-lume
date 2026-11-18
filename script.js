@@ -15,6 +15,14 @@ function revealAll() {
 }
 
 function init() {
+  // Archive links (home section + footer) open in a new tab
+  document
+    .querySelectorAll('a[href*="/files/archive/"]')
+    .forEach((a) => {
+      a.target = "_blank";
+      a.rel = "noopener";
+    });
+
   const reduceMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)",
   ).matches;

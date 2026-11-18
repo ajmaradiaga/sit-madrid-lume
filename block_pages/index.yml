@@ -11,9 +11,6 @@ menu:
   - text: Preguntas frecuentes
     url: '#faq'
     highlight: false
-  - text: Ediciones anteriores
-    url: '#archive'
-    highlight: false
   - text: Contacto
     url: '#contact'
     highlight: false
