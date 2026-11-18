@@ -24,7 +24,7 @@ blocks:
     id: main-logo
     title: SAP Inside Track Madrid
     intro: "8 and 9 of April 2027\n\n\U0001F3E2 NEORIS AI Hub, powered by EPAM · Madrid 🇪🇸"
-    text: "## [More info and RSVP \U0001F3AB](https://community.sap.com/t5/madrid-events/gh-p/madrid)"
+    text: "## [More info and RSVP \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2027-apr-9-2027/ec-p/14525149#M47)"
   - type: imagetext
     id: what-is-sit
     theme: is-dark width-full box-fill
@@ -76,7 +76,7 @@ blocks:
             subtitle: Sessions will be published soon
             description: >-
               Do you want to present a talk? [Propose your
-              session here](https://forms.gle/vnw6AjsY5sPo63mf7).
+              session here](https://forms.gle/evZneFRkEEoH9jYA9).
             speakers: []
           - time: '11:00'
             title: "Break # 1 \U0001F950 ☕️"
@@ -92,7 +92,7 @@ blocks:
     text: >-
       Thank you for your interest in speaking at the SIT Madrid! Your
       contribution allows us to offer attendees the greatest variety in the
-      program. **[Propose a talk here](https://forms.gle/vnw6AjsY5sPo63mf7)**.
+      program. **[Propose a talk here](https://forms.gle/evZneFRkEEoH9jYA9)**.
   - type: separator
     width: is-default
   # Sponsors: 2027 confirmed = EPAM, SAP, SAP Press. The 2026 sponsors
@@ -183,7 +183,7 @@ blocks:
           Community Madrid events group:
 
           - SAP Inside Track Madrid:
-          [Link](https://community.sap.com/t5/madrid-events/gh-p/madrid)
+          [Link](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2027-apr-9-2027/ec-p/14525149#M47)
 
           - SAP CodeJam:
           [Link](https://community.sap.com/t5/sap-codejam/eb-p/codejam-events)

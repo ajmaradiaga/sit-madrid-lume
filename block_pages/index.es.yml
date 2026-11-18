@@ -21,7 +21,7 @@ blocks:
     id: main-logo
     title: SAP Inside Track Madrid
     intro: "8 y 9 de abril 2027\n\n\U0001F3E2 NEORIS AI Hub, powered by EPAM · Madrid 🇪🇸"
-    text: "## [Más info y registro \U0001F3AB](https://community.sap.com/t5/madrid-events/gh-p/madrid)"
+    text: "## [Más info y registro \U0001F3AB](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2027-apr-9-2027/ec-p/14525149#M47)"
   - type: imagetext
     id: what-is-sit
     theme: is-dark width-full box-fill
@@ -80,7 +80,7 @@ blocks:
             subtitle: Las sesiones se publicarán próximamente
             description: >-
               ¿Quieres presentar una charla? [Propón tu
-              sesión aquí](https://forms.gle/vnw6AjsY5sPo63mf7).
+              sesión aquí](https://forms.gle/evZneFRkEEoH9jYA9).
             speakers: []
           - time: '11:00'
             title: "Break # 1 \U0001F950 ☕️"
@@ -97,12 +97,7 @@ blocks:
       ¡Gracias por interesarte en participar como ponente en el SIT Madrid!
       Vuestra colaboración nos permite ofrecer a los asistentes la mayor
       variedad en el programa.  **[Proponer la charla
-      aqui](https://forms.gle/vnw6AjsY5sPo63mf7)**.
-
-
-      Thank you for your interest in speaking at the SIT Madrid! Your
-      contribution allows us to offer attendees the greatest variety in the
-      program. **[Propose a talk here](https://forms.gle/vnw6AjsY5sPo63mf7)**.
+      aqui](https://forms.gle/evZneFRkEEoH9jYA9)**.
   - type: separator
     width: is-default
   # Sponsors: 2027 confirmed = EPAM, SAP, SAP Press. The 2026 sponsors
@@ -192,12 +187,12 @@ blocks:
           favor contactar con [Antonio Maradiaga](mailto:ajmaradiaga@gmail.com).
       - question: ¿Donde me puedo registrar para los eventos?
         answer: >-
-          This website is purely informational. The registration links will be
-          published here once they are open. In the meantime, follow the SAP
-          Community Madrid events group:
+          Este sitio web es puramente informativo. Los enlaces de registro se
+          publicarán aquí una vez que estén abiertos. Mientras tanto, sigue el
+          grupo de eventos de la Comunidad SAP Madrid:
 
           - SAP Inside Track Madrid:
-          [Link](https://community.sap.com/t5/madrid-events/gh-p/madrid)
+          [Link](https://community.sap.com/t5/madrid-events/sap-inside-track-madrid-2027-apr-9-2027/ec-p/14525149#M47)
 
           - SAP CodeJam:
           [Link](https://community.sap.com/t5/sap-codejam/eb-p/codejam-events)
