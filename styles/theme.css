@@ -292,6 +292,12 @@ summary:focus-visible {
   letter-spacing: 0.02em;
 }
 .navbar-menu a { font-family: var(--font-family-display); font-weight: 600; }
+/* Black left rule so the menu reads as a defined section/bar */
+.navbar-menu {
+  border-left: 6px solid var(--color-dark);
+  border-radius: 0;
+  padding-left: 1.25rem;
+}
 
 /* ===========================================================================
    FOOTER — black band with a ghost #SITMAD watermark
