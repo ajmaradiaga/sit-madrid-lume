@@ -292,9 +292,11 @@ summary:focus-visible {
   letter-spacing: 0.02em;
 }
 .navbar-menu a { font-family: var(--font-family-display); font-weight: 600; }
-/* Black left rule so the menu reads as a defined section/bar */
+/* Black rule bracketing the menu (left + top + bottom, open toward the CTA)
+   so it reads as a defined section and balances the black CTA on the right */
 .navbar-menu {
-  border-left: 6px solid var(--color-dark);
+  border: 6px solid var(--color-dark);
+  border-right: none;
   border-radius: 0;
   padding-left: 1.25rem;
 }
