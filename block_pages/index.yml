@@ -13,10 +13,10 @@ menu:
   - text: Speakers
     url: '#speakers-wanted'
     highlight: false
-  # - text: Preguntas frecuentes
+  # - text: FAQ
   #   url: '#faq'
   #   highlight: false
-  # - text: Contacto
+  # - text: Contact
   #   url: '#contact'
   #   highlight: false
 blocks:
@@ -92,7 +92,7 @@ blocks:
     text: >-
       Thank you for your interest in speaking at the SIT Madrid! Your
       contribution allows us to offer attendees the greatest variety in the
-      program. **[Propose a talk here](https://forms.gle/evZneFRkEEoH9jYA9)**.
+      program. **[Learn more about it here](https://aancos.notion.site/SIT-Madrid-2027-Ponencias-41c717fffddb8019943cd632457f5d11)**.
   - type: separator
     width: is-default
   # Sponsors: 2027 confirmed = EPAM, SAP, SAP Press. The 2026 sponsors
@@ -119,7 +119,7 @@ blocks:
     theme: is-light width-box box-border
     columns: false
     text: >-
-      If you are interested in sponsoring the event, please see the details [here](https://sitmadrid.com).
+      If you are interested in sponsoring the event, please see the details [here](https://aancos.notion.site/SIT-Madrid-2027-Patrocinios-41c717fffddb80538771ea834affca69).
   - type: separator
     width: is-default
   - type: people
@@ -139,10 +139,10 @@ blocks:
         img: /files/people/bernhard.jpg
         url: 'https://www.linkedin.com/in/bernhardluecke/'
         description: '@Bernhard'
-      - name: Philipp Nell
-        img: /files/people/phil.jpg
-        url: 'https://www.linkedin.com/in/philnell/'
-        description: '@Phil_from_Madrid'
+      # - name: Philipp Nell
+      #   img: /files/people/phil.jpg
+      #   url: 'https://www.linkedin.com/in/philnell/'
+      #   description: '@Phil_from_Madrid'
       - name: Evgenii Shirokikh
         img: /files/people/evgenii-shirokikh.jpeg
         url: 'https://www.linkedin.com/in/evgenii-sh/'
@@ -154,7 +154,7 @@ blocks:
     theme: is-light width-box box-border
     columns: false
     text: >-
-      The past editions of SIT Madrid are archived as they were — with their program, speakers, and sponsors:
+      Check out the past editions of SIT Madrid. They are part of our archives:
 
 
       **[→ SIT Madrid 2026](/files/archive/2026/)**  ·  **[→ SIT Madrid
@@ -175,7 +175,7 @@ blocks:
           The SAP CodeJam and the SAP Inside Track are separate events and you can attend just one event if you wish so.
       - question: 'I am interested in sponsoring the event, who should I get in touch with?'
         answer: >-
-          First of all, thanks for your interest in sponsoring the event. Please find more details [here](https://sitmadrid.com).
+          First of all, thanks for your interest in sponsoring the event. Please find more details [here](https://aancos.notion.site/SIT-Madrid-2027-Patrocinios-41c717fffddb80538771ea834affca69).
       - question: Where can I register (RSVP) for the events?
         answer: >-
           This website is purely informational. The registration links will be
